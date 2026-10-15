@@ -1,0 +1,1 @@
+{"extends":"./tsconfig.map.json","compilerOptions":{"target":"ES2022","lib":["ES2022","DOM","DOM.Iterable"]},"include":["src/features/plots/**/*.ts","src/features/plots/**/*.tsx","src/map/assets.d.ts"],"exclude":[]}
