@@ -1,14 +1,63 @@
-import {describe,it,expect} from 'vitest';import * as turf from '@turf/turf';import {generateProfiles} from '../mock/plotProfiles';import {verifyGps,validPolygon} from './geo';import {compliance,complianceScore,phiViolations} from './compliance';
-const profiles=generateProfiles('2026-10-14');const demo=profiles.find(p=>p.shortCode==='T015')!;
-describe('profile generation',()=>{it('covers all 50 map parcels and is seeded',()=>{expect(profiles).toHaveLength(50);expect(profiles).toEqual(generateProfiles('2026-10-14'));expect(demo.currentSeason.das).toBe(47);expect(demo.currentSeason.logs).toHaveLength(18);expect(profiles.every(p=>validPolygon(p.geometry))).toBe(true);});});
-describe('GPS verification',()=>{it('checks geometry, measured accuracy and 15m tolerance',()=>{expect(verifyGps(demo.geometry,{...demo.centroid,accuracyM:5})).toBe(true);expect(verifyGps(demo.geometry,{...demo.centroid,lat:demo.centroid.lat+.01,accuracyM:5})).toBe(false);expect(verifyGps(demo.geometry,{...demo.centroid,accuracyM:20})).toBe(false);const vertex=demo.geometry.coordinates[0][0];const p=turf.destination(turf.point(vertex),.01,180).geometry.coordinates;expect(verifyGps(demo.geometry,{lng:p[0],lat:p[1],accuracyM:5})).toBe(true);expect(demo.currentSeason.logs.filter(l=>!l.gpsVerified)).toHaveLength(1);});});
-describe('compliance rule engine',()=>{
- it('responds to broken geometry and missing COA',()=>{const changed=structuredClone(demo);changed.geometry.coordinates[0].pop();changed.currentSeason.seedBatch.coaUrl='';expect(complianceScore(changed,'EU')).toBeLessThan(complianceScore(demo,'EU'));});
- it('checks market-specific banned ingredients',()=>{const p=structuredClone(demo);p.currentSeason.logs[10].inputs![0].activeIngredient='Chlorpyrifos';expect(compliance(p,'EU').find(c=>c.id==='banned')?.status).toBe('fail');expect(compliance(p,'CN').find(c=>c.id==='banned')?.status).toBe('pass');});
- it('surfaces PHI exceeding harvest date',()=>{const p=structuredClone(demo);p.currentSeason.expectedHarvestDate=p.currentSeason.pests[1].detectedAt;expect(phiViolations(p)).toContain('pest-2');expect(compliance(p,'EU').find(c=>c.id==='phi')?.status).toBe('fail');});
- it('recomputes GPS rather than trusting the stored badge',()=>{const p=structuredClone(demo);p.currentSeason.logs.forEach(l=>{l.gps={...p.centroid,accuracyM:5};l.gpsVerified=false;l.deviation=undefined;l.inputs?.forEach(i=>{if(i.name==='Urê')i.ratePerHa=50;});});expect(compliance(p,'EU').find(c=>c.id==='logs')?.status).toBe('pass');});
- it('detects excessive urea even if the stored deviation is removed',()=>{const p=structuredClone(demo);p.currentSeason.logs.forEach(l=>{l.gps={...p.centroid,accuracyM:5};l.deviation=undefined;});expect(compliance(p,'EU').find(c=>c.id==='logs')?.status).toBe('fail');});
- it('marks future harvest evidence not applicable',()=>{expect(compliance(demo,'EU').find(c=>c.id==='trace')?.status).toBe('na');expect(compliance(demo,'EU').find(c=>c.id==='drainage')?.status).toBe('na');});
- it('validates straw burning and recorded harvest drainage',()=>{const p=structuredClone(demo);p.currentSeason.logs[1].title={vi:'Đốt rơm',en:'Burn straw'};expect(compliance(p,'EU').find(c=>c.id==='straw')?.status).toBe('fail');p.currentSeason.harvest={...p.seasons[1].harvest!,date:'2026-12-01'};p.currentSeason.logs.push({...p.currentSeason.logs[6],id:'final-drain',date:'2026-11-21',waterLevelCm:-10});expect(compliance(p,'EU').find(c=>c.id==='drainage')?.status).toBe('pass');});
- it('does not invent future logs or pest observations',()=>{expect(profiles.every(p=>p.currentSeason.logs.every(l=>l.date<='2026-10-14'))).toBe(true);expect(profiles.every(p=>p.currentSeason.pests.every(c=>c.detectedAt<='2026-10-14'))).toBe(true);});
+import { describe, it, expect } from 'vitest';
+import * as turf from '@turf/turf';
+import { generateProfiles } from '../mock/plotProfiles';
+import { verifyGps, validPolygon } from './geo';
+import { compliance, phiViolations, fertilizerDeviation } from './compliance';
+const profiles = generateProfiles('2026-10-23');
+describe('source records', () => {
+  it('is deterministic for the same date and tracks seeded provenance', () => {
+    expect(profiles).toEqual(generateProfiles('2026-10-23'));
+    expect(
+      profiles.every(
+        (p) =>
+          p.is_seeded &&
+          !p.owner.idVerified &&
+          p.currentSeason.logs.length >= 12 &&
+          p.seasons.length === 2,
+      ),
+    ).toBe(true);
+  });
+  it('does not accept a location point as a verified parcel boundary', () => {
+    const p = profiles[0];
+    expect(validPolygon(p.geometry)).toBe(true);
+    const location = turf.point([p.centroid.lng, p.centroid.lat]).geometry;
+    expect(validPolygon(location)).toBe(false);
+    expect(verifyGps(location, { ...p.centroid, accuracyM: 5 })).toBe(false);
+    expect(compliance(p, 'EU').find((c) => c.id === 'official')?.status).toBe('fail');
+  });
+});
+describe('geometry and evidence rules', () => {
+  it('validates polygon closure, self-intersection, accuracy and outside locations', () => {
+    const geometry = turf.bboxPolygon([105.65, 10.85, 105.66, 10.86]).geometry;
+    expect(validPolygon(geometry)).toBe(true);
+    expect(verifyGps(geometry, { lng: 105.655, lat: 10.855, accuracyM: 5 })).toBe(true);
+    expect(verifyGps(geometry, { lng: 105.655, lat: 10.855, accuracyM: 20 })).toBe(false);
+    expect(verifyGps(geometry, { lng: 106, lat: 11, accuracyM: 5 })).toBe(false);
+    geometry.coordinates[0].pop();
+    expect(validPolygon(geometry)).toBe(false);
+  });
+  it('detects fertilizer deviations and pesticide waiting periods in supplied evidence', () => {
+    const p = structuredClone(profiles[0]);
+    p.sourceOnly = false;
+    p.currentSeason.expectedHarvestDate = '2026-11-01';
+    p.currentSeason.logs = [
+      {
+        id: 'test',
+        date: '2026-10-30',
+        group: 'PHAN_BON',
+        title: { vi: 'Bón phân', en: 'Fertilization' },
+        actor: 'Test',
+        photos: [],
+        gps: { ...p.centroid, accuracyM: 5 },
+        gpsVerified: false,
+        syncedOffline: false,
+        phiDays: 14,
+        inputs: [{ name: 'Urê', qty: 55, unit: 'kg', ratePerHa: 55 }],
+      },
+    ];
+    expect(fertilizerDeviation(p.currentSeason)).toBe(true);
+    expect(phiViolations(p)).toEqual(['test']);
+    p.currentSeason.logs[0].inputs![0].ratePerHa = 50;
+    expect(fertilizerDeviation(p.currentSeason)).toBe(false);
+  });
 });

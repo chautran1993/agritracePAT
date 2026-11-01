@@ -1,0 +1,3272 @@
+{
+  "source": "83 parcels joined continuously after removing MP-0061 and MP-0084; stable identifiers preserved",
+  "referenceImage": "codex-clipboard-912f1e92-fd9e-402b-9fbb-7a38e52a8858.png",
+  "affineCoefficients": [
+    [0.000007696433827655835, 1.8235183164849733e-7, 105.65633964471124],
+    [-1.8765721683175474e-8, -0.000007368571563227955, 10.868983276368937]
+  ],
+  "records": [
+    {
+      "sourceRow": 1,
+      "parcelNumber": "17",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66005993357149,
+      "lat": 10.86297741787977,
+      "estimatedAreaM2": 22928.852921555157,
+      "reportedAreaM2": 22832.7,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Giữ nguyên 18 góc người dùng cung cấp. Diện tích ghi nhận: 22.832,7 m².",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.86297741787977,105.66005993357149",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.65958648700007, 10.861599029000047],
+            [105.65922950300006, 10.86184729100006],
+            [105.65902814100008, 10.861978150000027],
+            [105.65911946800009, 10.862145533000046],
+            [105.65930204700004, 10.862421439000059],
+            [105.65953948100008, 10.862787775000072],
+            [105.65977224900007, 10.863158721000048],
+            [105.66001873300007, 10.863547753000034],
+            [105.66026073900008, 10.863923130000046],
+            [105.66048893600004, 10.864294074000043],
+            [105.66101971300009, 10.864050564000024],
+            [105.66113406300008, 10.86400548000006],
+            [105.66084642800007, 10.863575751000042],
+            [105.66063642200004, 10.863245499000072],
+            [105.66037621600009, 10.862861074000023],
+            [105.66016163700004, 10.862530821000064],
+            [105.65988772800006, 10.862092053000026],
+            [105.65967315300009, 10.861752848000037],
+            [105.65958648700007, 10.861599029000047]
+          ]
+        ]
+      },
+      "boundaryEstimated": false,
+      "imageOutlineIndex": null
+    },
+    {
+      "sourceRow": 2,
+      "parcelNumber": "101",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66368644778468,
+      "lat": 10.866286475878479,
+      "estimatedAreaM2": 13650.587473355794,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.866286475878479,105.66368644778468",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66292825787674, 10.866771509945385],
+            [105.6636103228581, 10.866887736941168],
+            [105.66444463769263, 10.866760444526651],
+            [105.66423267161139, 10.865685214815791],
+            [105.66340809673774, 10.866040895417326],
+            [105.66292825787674, 10.866771509945385]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 0
+    },
+    {
+      "sourceRow": 3,
+      "parcelNumber": "102",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66358046474406,
+      "lat": 10.865775457949553,
+      "estimatedAreaM2": 13724.993537534752,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.865775457949553,105.66358046474406",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66292825787674, 10.866771509945385],
+            [105.66340809673774, 10.866040895417326],
+            [105.66423267161139, 10.865685214815791],
+            [105.66403960073951, 10.864779405953723],
+            [105.66319211891621, 10.865127774280857],
+            [105.66292825787674, 10.866771509945385]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 1
+    },
+    {
+      "sourceRow": 4,
+      "parcelNumber": "103",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66347323696488,
+      "lat": 10.864482358085954,
+      "estimatedAreaM2": 10859.804252853912,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.864482358085954,105.66347323696488",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66319211891621, 10.865127774280857],
+            [105.66403960073951, 10.864779405953723],
+            [105.66377047728851, 10.863836941891053],
+            [105.66290687319022, 10.864214822035883],
+            [105.66319211891621, 10.865127774280857]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 2
+    },
+    {
+      "sourceRow": 5,
+      "parcelNumber": "104",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66324855977443,
+      "lat": 10.863635619773582,
+      "estimatedAreaM2": 9042.976737763034,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.863635619773582,105.66324855977443",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66290687319022, 10.864214822035883],
+            [105.66377047728851, 10.863836941891053],
+            [105.66356661000167, 10.86305641751128],
+            [105.66272664226035, 10.863412135644255],
+            [105.66290687319022, 10.864214822035883]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 3
+    },
+    {
+      "sourceRow": 6,
+      "parcelNumber": "105",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66447701803853,
+      "lat": 10.864590278224089,
+      "estimatedAreaM2": 20065.607634091004,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.864590278224089,105.66447701803853",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66377047728851, 10.863836941891053],
+            [105.66403960073951, 10.864779405953723],
+            [105.66423267161139, 10.865685214815791],
+            [105.66518355878856, 10.864268215954771],
+            [105.66486406264247, 10.863495341632387],
+            [105.66377047728851, 10.863836941891053]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 4
+    },
+    {
+      "sourceRow": 7,
+      "parcelNumber": "106",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66518355878856,
+      "lat": 10.864268215954771,
+      "estimatedAreaM2": 22440.94827008089,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.864268215954771,105.66518355878856",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66423267161139, 10.865685214815791],
+            [105.66622122557868, 10.863698340103419],
+            [105.66711058487478, 10.86414562737934],
+            [105.66591216114388, 10.862814918441865],
+            [105.66486406264247, 10.863495341632387],
+            [105.66518355878856, 10.864268215954771],
+            [105.66423267161139, 10.865685214815791]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 5
+    },
+    {
+      "sourceRow": 8,
+      "parcelNumber": "107",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66390050897613,
+      "lat": 10.862482176054197,
+      "estimatedAreaM2": 33698.08685436895,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.862482176054197,105.66390050897613",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66444038814562, 10.861956436118973],
+            [105.66359609415987, 10.86112741021734],
+            [105.66293695530979, 10.861444332956719],
+            [105.66337485324951, 10.862408489888201],
+            [105.66356661000167, 10.86305641751128],
+            [105.66377047728851, 10.863836941891053],
+            [105.66486406264247, 10.863495341632387],
+            [105.66444038814562, 10.861956436118973]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 6
+    },
+    {
+      "sourceRow": 9,
+      "parcelNumber": "108",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66622960783027,
+      "lat": 10.86255365897997,
+      "estimatedAreaM2": 42338.67374474576,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.86255365897997,105.66622960783027",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66801882751491, 10.861652985961584],
+            [105.66576951599468, 10.861611976327554],
+            [105.66564230828556, 10.861901928665448],
+            [105.66487002265883, 10.86187383217143],
+            [105.66444038814562, 10.861956436118973],
+            [105.66486406264247, 10.863495341632387],
+            [105.66591216114388, 10.862814918441865],
+            [105.66663380240537, 10.862886840179659],
+            [105.66801882751491, 10.861652985961584]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 7
+    },
+    {
+      "sourceRow": 10,
+      "parcelNumber": "109",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66567162824308,
+      "lat": 10.865409509472457,
+      "estimatedAreaM2": 70680.63590901648,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.865409509472457,105.66567162824308",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66699989001457, 10.866442629466311],
+            [105.66700546897329, 10.866216327348658],
+            [105.66646853619102, 10.864589280462312],
+            [105.66711058487478, 10.86414562737934],
+            [105.66622122557868, 10.863698340103419],
+            [105.66423267161139, 10.865685214815791],
+            [105.66444463769263, 10.866760444526651],
+            [105.66477434554129, 10.867120678841495],
+            [105.66699989001457, 10.866442629466311]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 8
+    },
+    {
+      "sourceRow": 11,
+      "parcelNumber": "110",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66708689796512,
+      "lat": 10.865259144677953,
+      "estimatedAreaM2": 17045.27653968814,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.865259144677953,105.66708689796512",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66701792150334, 10.866372661976564],
+            [105.66770525973922, 10.86592726414274],
+            [105.6676262518739, 10.865699044847219],
+            [105.66755421103507, 10.86550028107223],
+            [105.66739674235993, 10.865021736766495],
+            [105.66718995744377, 10.864359109531735],
+            [105.66711058487478, 10.86414562737934],
+            [105.66646853619102, 10.864589280462312],
+            [105.66700546897329, 10.866216327348658],
+            [105.66701792150334, 10.866372661976564]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 9
+    },
+    {
+      "sourceRow": 12,
+      "parcelNumber": "111",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66886328067409,
+      "lat": 10.865464786167845,
+      "estimatedAreaM2": 9057.483173442233,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.865464786167845,105.66886328067409",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66851490983848, 10.865766183428288],
+            [105.66940022338582, 10.865230527488471],
+            [105.66935539484726, 10.865485980409254],
+            [105.67010030947426, 10.865862479430792],
+            [105.6693212155205, 10.865002308192949],
+            [105.6676262518739, 10.865699044847219],
+            [105.66770525973922, 10.86592726414274],
+            [105.66851490983848, 10.865766183428288]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 10
+    },
+    {
+      "sourceRow": 13,
+      "parcelNumber": "112",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66843771327778,
+      "lat": 10.865251304015448,
+      "estimatedAreaM2": 4723.393320544793,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.865251304015448,105.66843771327778",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.6676262518739, 10.865699044847219],
+            [105.6693212155205, 10.865002308192949],
+            [105.66924147824784, 10.86480356318368],
+            [105.66755421103507, 10.86550028107223],
+            [105.6676262518739, 10.865699044847219]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 11
+    },
+    {
+      "sourceRow": 14,
+      "parcelNumber": "113",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66831911030388,
+      "lat": 10.864920037312373,
+      "estimatedAreaM2": 10991.998091655336,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.864920037312373,105.66831911030388",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66755421103507, 10.86550028107223],
+            [105.66924147824784, 10.86480356318368],
+            [105.66906825200138, 10.864339793552517],
+            [105.66739674235993, 10.865021736766495],
+            [105.66755421103507, 10.86550028107223]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 12
+    },
+    {
+      "sourceRow": 15,
+      "parcelNumber": "114",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66808941843809,
+      "lat": 10.86389653772823,
+      "estimatedAreaM2": 21192.168822743064,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.86389653772823,105.66808941843809",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66711058487478, 10.86414562737934],
+            [105.66718995744377, 10.864359109531735],
+            [105.66739674235993, 10.865021736766495],
+            [105.66906825200138, 10.864339793552517],
+            [105.66867609264717, 10.862771338689964],
+            [105.6687360982651, 10.863456428188128],
+            [105.66711058487478, 10.86414562737934]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 13
+    },
+    {
+      "sourceRow": 16,
+      "parcelNumber": "115",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.6673241297045,
+      "lat": 10.863458483034652,
+      "estimatedAreaM2": 17100.57710356947,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.863458483034652,105.6673241297045",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66591216114388, 10.862814918441865],
+            [105.66711058487478, 10.86414562737934],
+            [105.6687360982651, 10.863456428188128],
+            [105.66867609264717, 10.862771338689964],
+            [105.66848919001333, 10.862860211926042],
+            [105.66685616254101, 10.863542061311414],
+            [105.66591216114388, 10.862814918441865]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 14
+    },
+    {
+      "sourceRow": 17,
+      "parcelNumber": "116",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66720067557861,
+      "lat": 10.862597523636499,
+      "estimatedAreaM2": 24457.602487876535,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.862597523636499,105.66720067557861",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66591216114388, 10.862814918441865],
+            [105.66685616254101, 10.863542061311414],
+            [105.66848919001333, 10.862860211926042],
+            [105.66839839866009, 10.862175197490766],
+            [105.66820507605523, 10.862212509491625],
+            [105.66801882751491, 10.861652985961584],
+            [105.66663380240537, 10.862886840179659],
+            [105.66591216114388, 10.862814918441865]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 15
+    },
+    {
+      "sourceRow": 18,
+      "parcelNumber": "117",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.67003537265336,
+      "lat": 10.865243451022156,
+      "estimatedAreaM2": 13944.87035454588,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.865243451022156,105.67003537265336",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.6707495297862, 10.866084075349022],
+            [105.67055822845856, 10.865706632250385],
+            [105.67041348675474, 10.864402826695292],
+            [105.67011077290981, 10.864506718560323],
+            [105.6693212155205, 10.865002308192949],
+            [105.67010030947426, 10.865862479430792],
+            [105.6707495297862, 10.866084075349022]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 16
+    },
+    {
+      "sourceRow": 19,
+      "parcelNumber": "118",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.67068460893896,
+      "lat": 10.863945796984016,
+      "estimatedAreaM2": 12768.830015893,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.863945796984016,105.67068460893896",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.67081152560598, 10.86561896251642],
+            [105.67100845100903, 10.8655508038357],
+            [105.6707151758698, 10.863407393968275],
+            [105.67044430421429, 10.863157538101106],
+            [105.67043758892075, 10.862184961717647],
+            [105.67036076686888, 10.86221166426429],
+            [105.67041348675474, 10.864402826695292],
+            [105.67055822845856, 10.865706632250385],
+            [105.67080563850442, 10.865628506290186],
+            [105.67081152560598, 10.86561896251642]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 17
+    },
+    {
+      "sourceRow": 20,
+      "parcelNumber": "119",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.6710749364604,
+      "lat": 10.863867882776674,
+      "estimatedAreaM2": 23323.898709028537,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.863867882776674,105.6710749364604",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.67170714766397, 10.865305952059161],
+            [105.67171228400007, 10.865295488731663],
+            [105.67168924980506, 10.865227010482718],
+            [105.67117287484537, 10.862949454119498],
+            [105.67043758892075, 10.862184961717647],
+            [105.67044430421429, 10.863157538101106],
+            [105.6707151758698, 10.863407393968275],
+            [105.67100845100903, 10.8655508038357],
+            [105.67165648835241, 10.865323705148498],
+            [105.67165659610248, 10.865323704885778],
+            [105.67170714766397, 10.865305952059161]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 18
+    },
+    {
+      "sourceRow": 21,
+      "parcelNumber": "120",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66939343277849,
+      "lat": 10.863805187416888,
+      "estimatedAreaM2": 14105.180286699599,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.863805187416888,105.66939343277849",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66867609264717, 10.862771338689964],
+            [105.66906825200138, 10.864339793552517],
+            [105.66924147824784, 10.86480356318368],
+            [105.6693212155205, 10.865002308192949],
+            [105.67011077290981, 10.864506718560323],
+            [105.66967612557883, 10.864655140872001],
+            [105.66915728328478, 10.862608066640828],
+            [105.66867609264717, 10.862771338689964]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 19
+    },
+    {
+      "sourceRow": 22,
+      "parcelNumber": "121",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66963402809729,
+      "lat": 10.863557364451992,
+      "estimatedAreaM2": 12005.660738037303,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.863557364451992,105.66963402809729",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66967612557883, 10.864655140872001],
+            [105.67011077290981, 10.864506718560323],
+            [105.66961501991725, 10.862459588031985],
+            [105.66915728328478, 10.862608066640828],
+            [105.66967612557883, 10.864655140872001]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 20
+    },
+    {
+      "sourceRow": 23,
+      "parcelNumber": "122",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.67001425333599,
+      "lat": 10.863359191412307,
+      "estimatedAreaM2": 14045.575827775809,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.863359191412307,105.67001425333599",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66961501991725, 10.862459588031985],
+            [105.67011077290981, 10.864506718560323],
+            [105.67041348675474, 10.864402826695292],
+            [105.67036076686888, 10.86221166426429],
+            [105.66992524784416, 10.862363045972796],
+            [105.66961501991725, 10.862459588031985]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 21
+    },
+    {
+      "sourceRow": 24,
+      "parcelNumber": "123",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66877784097244,
+      "lat": 10.862413906671982,
+      "estimatedAreaM2": 5188.586447867752,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.862413906671982,105.66877784097244",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66839839866009, 10.862175197490766],
+            [105.66848919001333, 10.862860211926042],
+            [105.66867609264717, 10.862771338689964],
+            [105.66915728328478, 10.862608066640828],
+            [105.66892686201165, 10.861967601417922],
+            [105.66839839866009, 10.862175197490766]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 22
+    },
+    {
+      "sourceRow": 25,
+      "parcelNumber": "124",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66927094096445,
+      "lat": 10.862195163913185,
+      "estimatedAreaM2": 4155.0035357604365,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.862195163913185,105.66927094096445",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66915728328478, 10.862608066640828],
+            [105.66961501991725, 10.862459588031985],
+            [105.6693932068371, 10.86178226118554],
+            [105.66892686201165, 10.861967601417922],
+            [105.66915728328478, 10.862608066640828]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 23
+    },
+    {
+      "sourceRow": 26,
+      "parcelNumber": "125",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66958186064178,
+      "lat": 10.861639964642801,
+      "estimatedAreaM2": 16931.447539914632,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.861639964642801,105.66958186064178",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.6702940166417, 10.861455867213042],
+            [105.66883819507227, 10.86082034125362],
+            [105.66872613236283, 10.861371272561508],
+            [105.6693932068371, 10.86178226118554],
+            [105.66961501991725, 10.862459588031985],
+            [105.66992524784416, 10.862363045972796],
+            [105.67043758892075, 10.862184961717647],
+            [105.6702940166417, 10.861455867213042]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 24
+    },
+    {
+      "sourceRow": 27,
+      "parcelNumber": "126",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.668706017176,
+      "lat": 10.861609048843544,
+      "estimatedAreaM2": 10086.832086284734,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.861609048843544,105.668706017176",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66872613236283, 10.861371272561508],
+            [105.66823203064375, 10.861005588195463],
+            [105.66801882751491, 10.861652985961584],
+            [105.66820507605523, 10.862212509491625],
+            [105.66839839866009, 10.862175197490766],
+            [105.66892686201165, 10.861967601417922],
+            [105.6693932068371, 10.86178226118554],
+            [105.66872613236283, 10.861371272561508]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 25
+    },
+    {
+      "sourceRow": 28,
+      "parcelNumber": "127",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66218248375549,
+      "lat": 10.865789522705228,
+      "estimatedAreaM2": 32948.36055572982,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.865789522705228,105.66218248375549",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66117284859475, 10.866178971764752],
+            [105.66200483051236, 10.86645693202049],
+            [105.66292825787674, 10.866771509945385],
+            [105.66319211891621, 10.865127774280857],
+            [105.6626412580136, 10.86499649112468],
+            [105.66156849842534, 10.864807535465072],
+            [105.66117284859475, 10.866178971764752]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 26
+    },
+    {
+      "sourceRow": 29,
+      "parcelNumber": "128",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66204567732265,
+      "lat": 10.864687330136293,
+      "estimatedAreaM2": 5012.955734721863,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.864687330136293,105.66204567732265",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66156849842534, 10.864807535465072],
+            [105.6626412580136, 10.86499649112468],
+            [105.6623948968173, 10.864378169147907],
+            [105.66145009663173, 10.864616252855974],
+            [105.66156849842534, 10.864807535465072]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 27
+    },
+    {
+      "sourceRow": 30,
+      "parcelNumber": "129",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66176853039106,
+      "lat": 10.864081337085938,
+      "estimatedAreaM2": 9512.239621008814,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.864081337085938,105.66176853039106",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66145009663173, 10.864616252855974],
+            [105.6623948968173, 10.864378169147907],
+            [105.66204607375056, 10.863546421315903],
+            [105.66114216396481, 10.863998081004974],
+            [105.66145009663173, 10.864616252855974]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 28
+    },
+    {
+      "sourceRow": 31,
+      "parcelNumber": "130",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66081628037531,
+      "lat": 10.862737771695162,
+      "estimatedAreaM2": 40279.32793189076,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.862737771695162,105.66081628037531",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66084642800007, 10.863575751000042],
+            [105.66113312292478, 10.864004075505504],
+            [105.66114216396481, 10.863998081004974],
+            [105.66204607375056, 10.863546421315903],
+            [105.66155440781208, 10.861956104693041],
+            [105.66087376398848, 10.861471467884819],
+            [105.65958648700007, 10.861599029000047],
+            [105.65967315300009, 10.861752848000037],
+            [105.65988772800006, 10.862092053000026],
+            [105.66016163700004, 10.862530821000064],
+            [105.66037621600009, 10.862861074000023],
+            [105.66063642200004, 10.863245499000072],
+            [105.66084642800007, 10.863575751000042]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 29
+    },
+    {
+      "sourceRow": 32,
+      "parcelNumber": "131",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66279350786675,
+      "lat": 10.86467129815837,
+      "estimatedAreaM2": 4992.298498329279,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.86467129815837,105.66279350786675",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.6626412580136, 10.86499649112468],
+            [105.66319211891621, 10.865127774280857],
+            [105.66290687319022, 10.864214822035883],
+            [105.6623948968173, 10.864378169147907],
+            [105.6626412580136, 10.86499649112468]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 30
+    },
+    {
+      "sourceRow": 33,
+      "parcelNumber": "132",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66247647347039,
+      "lat": 10.863895152396081,
+      "estimatedAreaM2": 6394.978277526477,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.863895152396081,105.66247647347039",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.6623948968173, 10.864378169147907],
+            [105.66290687319022, 10.864214822035883],
+            [105.66272664226035, 10.863412135644255],
+            [105.66204607375056, 10.863546421315903],
+            [105.6623948968173, 10.864378169147907]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 31
+    },
+    {
+      "sourceRow": 34,
+      "parcelNumber": "133",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66222018699507,
+      "lat": 10.86249537713631,
+      "estimatedAreaM2": 39200.509340582794,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.86249537713631,105.66222018699507",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66087376398848, 10.861471467884819],
+            [105.66155440781208, 10.861956104693041],
+            [105.66204607375056, 10.863546421315903],
+            [105.66272664226035, 10.863412135644255],
+            [105.66356661000167, 10.86305641751128],
+            [105.66337485324951, 10.862408489888201],
+            [105.66293695530979, 10.861444332956719],
+            [105.66087376398848, 10.861471467884819]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 32
+    },
+    {
+      "sourceRow": 35,
+      "parcelNumber": "134",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.6610932153938,
+      "lat": 10.86446633246509,
+      "estimatedAreaM2": 6181.4198551852,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.86446633246509,105.6610932153938",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66112651799871, 10.864008454719924],
+            [105.66061793236227, 10.864345661171798],
+            [105.66083423723057, 10.864934583925207],
+            [105.66156849842534, 10.864807535465072],
+            [105.66145009663173, 10.864616252855974],
+            [105.66114216396481, 10.863998081004974],
+            [105.66113312292478, 10.864004075505504],
+            [105.66113406300008, 10.86400548000006],
+            [105.66112651799871, 10.864008454719924]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 33
+    },
+    {
+      "sourceRow": 36,
+      "parcelNumber": "135",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66084011014608,
+      "lat": 10.865493253614911,
+      "estimatedAreaM2": 15518.772531459968,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.865493253614911,105.66084011014608",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66011172186683, 10.865208966285163],
+            [105.66021075670939, 10.865871856240028],
+            [105.66117284859475, 10.866178971764752],
+            [105.66156849842534, 10.864807535465072],
+            [105.66083423723057, 10.864934583925207],
+            [105.66011172186683, 10.865208966285163]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 34
+    },
+    {
+      "sourceRow": 37,
+      "parcelNumber": "136",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.6604827535174,
+      "lat": 10.864608710502544,
+      "estimatedAreaM2": 6851.12406825174,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.864608710502544,105.6604827535174",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66048893600004, 10.864294074000043],
+            [105.65983898903609, 10.864723334893691],
+            [105.66011172186683, 10.865208966285163],
+            [105.66083423723057, 10.864934583925207],
+            [105.66061793236227, 10.864345661171798],
+            [105.66112651799871, 10.864008454719924],
+            [105.66101971300009, 10.864050564000024],
+            [105.66048893600004, 10.864294074000043]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 35
+    },
+    {
+      "sourceRow": 38,
+      "parcelNumber": "137",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.65981836445067,
+      "lat": 10.86529759556686,
+      "estimatedAreaM2": 5677.436692506848,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.86529759556686,105.65981836445067",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.65951544942547, 10.865357782676996],
+            [105.66021075670939, 10.865871856240028],
+            [105.66011172186683, 10.865208966285163],
+            [105.65983898903609, 10.864723334893691],
+            [105.65942597219194, 10.864930649480712],
+            [105.65951544942547, 10.865357782676996]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 36
+    },
+    {
+      "sourceRow": 39,
+      "parcelNumber": "138",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.65918234268113,
+      "lat": 10.864666815941817,
+      "estimatedAreaM2": 6633.545518214986,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.864666815941817,105.65918234268113",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.65942597219194, 10.864930649480712],
+            [105.65983898903609, 10.864723334893691],
+            [105.65961334656748, 10.864200748050076],
+            [105.65898136489136, 10.864548590937003],
+            [105.6585256963262, 10.86513288383356],
+            [105.65942597219194, 10.864930649480712]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 37
+    },
+    {
+      "sourceRow": 40,
+      "parcelNumber": "139",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.65951169619908,
+      "lat": 10.863350742446858,
+      "estimatedAreaM2": 31188.17250348855,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.863350742446858,105.65951169619908",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.65902814100008, 10.861978150000027],
+            [105.6585344563981, 10.863326571532252],
+            [105.65898136489136, 10.864548590937003],
+            [105.65961334656748, 10.864200748050076],
+            [105.65983898903609, 10.864723334893691],
+            [105.66048893600004, 10.864294074000043],
+            [105.66026073900008, 10.863923130000046],
+            [105.66001873300007, 10.863547753000034],
+            [105.65977224900007, 10.863158721000048],
+            [105.65953948100008, 10.862787775000072],
+            [105.65930204700004, 10.862421439000059],
+            [105.65911946800009, 10.862145533000046],
+            [105.65902814100008, 10.861978150000027]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 38
+    },
+    {
+      "sourceRow": 41,
+      "parcelNumber": "140",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.65814704034216,
+      "lat": 10.863432835815615,
+      "estimatedAreaM2": 21901.948843986676,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.863432835815615,105.65814704034216",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.65854387569644, 10.862750906058919],
+            [105.65726593968425, 10.86330623950508],
+            [105.6579559850551, 10.863689020202255],
+            [105.65782067573842, 10.864165029836323],
+            [105.65793933587152, 10.864361789428463],
+            [105.65793920868659, 10.86436692878607],
+            [105.6579435402246, 10.864367683846831],
+            [105.65831432952244, 10.864887521631204],
+            [105.65898136489136, 10.864548590937003],
+            [105.6585344563981, 10.863326571532252],
+            [105.65902814100008, 10.861978150000027],
+            [105.65854387569644, 10.862750906058919]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 39
+    },
+    {
+      "sourceRow": 42,
+      "parcelNumber": "1001",
+      "sheetNumber": "6",
+      "included": true,
+      "lng": 105.67212381499199,
+      "lat": 10.862865538581117,
+      "estimatedAreaM2": 6717.541077875005,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 4,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.862865538581117,105.67212381499199",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.67232810288696, 10.864941408419766],
+            [105.6721108196066, 10.862856512702159],
+            [105.67212381499199, 10.862865538581117],
+            [105.67264894593251, 10.862746649545603],
+            [105.67266017619436, 10.862730714966947],
+            [105.67253668890532, 10.861826709259672],
+            [105.67251620694744, 10.861759299871173],
+            [105.67252025000452, 10.861814357109925],
+            [105.67250630381454, 10.861774477307225],
+            [105.67240176349945, 10.861830023436282],
+            [105.6720572380528, 10.861922593040713],
+            [105.67201450098777, 10.861963286707804],
+            [105.67199885165016, 10.861923470297521],
+            [105.67194853852565, 10.861996185601498],
+            [105.67200478806086, 10.861978490573753],
+            [105.67196311757044, 10.862008828906152],
+            [105.67210596568633, 10.862853141461674],
+            [105.67232810288696, 10.864941408419766]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 41,
+      "referenceImage": "codex-clipboard-88079171-4b03-453d-91f5-20cdf4f75418.png"
+    },
+    {
+      "sourceRow": 43,
+      "parcelNumber": "1002",
+      "sheetNumber": "4",
+      "included": true,
+      "lng": 105.66743732750777,
+      "lat": 10.866175603164983,
+      "estimatedAreaM2": 32054.396153233494,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 2,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.866175603164983,105.66743732750777",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66477434554129, 10.867120678841495],
+            [105.66700023337113, 10.866448564539557],
+            [105.66713412899024, 10.866933440208376],
+            [105.66715254292048, 10.866943437699492],
+            [105.6674000940806, 10.8668693184037],
+            [105.66740112174506, 10.866868969227639],
+            [105.66914503389029, 10.86669081609978],
+            [105.67010030947426, 10.865862479430792],
+            [105.66935539484726, 10.865485980409254],
+            [105.66940022338582, 10.865230527488471],
+            [105.66851490983848, 10.865766183428288],
+            [105.66770525973922, 10.86592726414274],
+            [105.66701792150334, 10.866372661976564],
+            [105.66700546897329, 10.866216327348658],
+            [105.66699989001457, 10.866442629466311],
+            [105.66477434554129, 10.867120678841495]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 43,
+      "referenceImage": "codex-clipboard-f8497ed8-6c19-4f8d-91af-107cfc4dbdc1.png"
+    },
+    {
+      "sourceRow": 44,
+      "parcelNumber": "1003",
+      "sheetNumber": "5",
+      "included": true,
+      "lng": 105.6729135084152,
+      "lat": 10.861470769268877,
+      "estimatedAreaM2": 12938.309667745996,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 3,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.861470769268877,105.6729135084152",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.67199885165016, 10.861923470297521],
+            [105.67201450098777, 10.861963286707804],
+            [105.6720572380528, 10.861922593040713],
+            [105.67240176349945, 10.861830023436282],
+            [105.67250630381454, 10.861774477307225],
+            [105.67252025000452, 10.861814357109925],
+            [105.67251620694744, 10.861759299871173],
+            [105.67393897493051, 10.861118686269913],
+            [105.67242856499787, 10.860958134045532],
+            [105.67241254390639, 10.860945352936254],
+            [105.67233556517574, 10.860952889156291],
+            [105.67233139095237, 10.86095392188269],
+            [105.67189695520405, 10.861131410939283],
+            [105.67188804189992, 10.861146461956324],
+            [105.67198427503767, 10.861910846880878],
+            [105.67194853852565, 10.861996185601498],
+            [105.67199885165016, 10.861923470297521]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 45,
+      "referenceImage": "codex-clipboard-bc59a414-0a22-43e4-b54b-78140e2fdcb0.png"
+    },
+    {
+      "sourceRow": 45,
+      "parcelNumber": "1004",
+      "sheetNumber": "4",
+      "included": true,
+      "lng": 105.67376603971658,
+      "lat": 10.866457562740536,
+      "estimatedAreaM2": 8372.862463522535,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 2,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.866457562740536,105.67376603971658",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.67319445445493, 10.866258468699382],
+            [105.67313686629406, 10.866928670703567],
+            [105.67343294680107, 10.866860714041593],
+            [105.67344663870992, 10.866869887647876],
+            [105.6735003925297, 10.866869756509699],
+            [105.6735053777645, 10.866868885083557],
+            [105.67375329273256, 10.866780061729713],
+            [105.67376284444329, 10.866765056312099],
+            [105.67439521313912, 10.866497786412705],
+            [105.67367466194437, 10.865986454777504],
+            [105.67367355090363, 10.866046588475768],
+            [105.67366450206666, 10.866001203351443],
+            [105.67360747302683, 10.866047492443784],
+            [105.67323887575813, 10.866134569446793],
+            [105.67320488414582, 10.866180802368449],
+            [105.67315766733961, 10.866135437509543],
+            [105.6731934624841, 10.866252903613958],
+            [105.67314366769452, 10.866125407666749],
+            [105.67319445445493, 10.866258468699382]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 52,
+      "referenceImage": "codex-clipboard-f8497ed8-6c19-4f8d-91af-107cfc4dbdc1.png"
+    },
+    {
+      "sourceRow": 46,
+      "parcelNumber": "1005",
+      "sheetNumber": "4",
+      "included": true,
+      "lng": 105.6724328165084,
+      "lat": 10.866124831509104,
+      "estimatedAreaM2": 34905.09798750337,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 2,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.866124831509104,105.6724328165084",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.67193326177086, 10.867467678830112],
+            [105.67204270948835, 10.86743938140541],
+            [105.67204816946148, 10.867438330660432],
+            [105.67307181946704, 10.867031498478621],
+            [105.67308097056348, 10.867018509809968],
+            [105.67308206213575, 10.866974397856493],
+            [105.67312229645643, 10.866944194252154],
+            [105.67313686629406, 10.866928670703567],
+            [105.67319445445493, 10.866258468699382],
+            [105.67314366769452, 10.866125407666749],
+            [105.67306050715615, 10.865980507107919],
+            [105.67306045941561, 10.865980019896405],
+            [105.67299390698825, 10.865012788139326],
+            [105.67293398505966, 10.864884947520267],
+            [105.67300313461658, 10.864997932200703],
+            [105.67297617952045, 10.864781984188099],
+            [105.67291810007933, 10.864872239170936],
+            [105.67291372596742, 10.864808146836893],
+            [105.67282972240477, 10.864880620530611],
+            [105.67217740864085, 10.865081935674326],
+            [105.67172178413051, 10.86528030675213],
+            [105.67168924980506, 10.865227010482718],
+            [105.67171228400007, 10.865295488731663],
+            [105.67170714766397, 10.865305952059161],
+            [105.67167117856187, 10.865336368812862],
+            [105.6719666878613, 10.867426817472975],
+            [105.67193326177086, 10.867467678830112]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 65,
+      "referenceImage": "codex-clipboard-f8497ed8-6c19-4f8d-91af-107cfc4dbdc1.png"
+    },
+    {
+      "sourceRow": 47,
+      "parcelNumber": "1006",
+      "sheetNumber": "4",
+      "included": true,
+      "lng": 105.67359033544972,
+      "lat": 10.865346853335613,
+      "estimatedAreaM2": 14649.79134675467,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 2,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.865346853335613,105.67359033544972",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.6731934624841, 10.866252903613958],
+            [105.67315766733961, 10.866135437509543],
+            [105.67320488414582, 10.866180802368449],
+            [105.67323887575813, 10.866134569446793],
+            [105.67360747302683, 10.866047492443784],
+            [105.67366450206666, 10.866001203351443],
+            [105.67367355090363, 10.866046588475768],
+            [105.67367466194437, 10.865986454777504],
+            [105.67424668583976, 10.864440803057267],
+            [105.67358840251111, 10.864817768861288],
+            [105.67390539074407, 10.864470975244105],
+            [105.67344771965219, 10.864827014344995],
+            [105.67297617952045, 10.864781984188099],
+            [105.67300313461658, 10.864997932200703],
+            [105.67293398505966, 10.864884947520267],
+            [105.67299390698825, 10.865012788139326],
+            [105.67306045941561, 10.865980019896405],
+            [105.67306050715615, 10.865980507107919],
+            [105.67314366769452, 10.866125407666749],
+            [105.6731934624841, 10.866252903613958]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 67,
+      "referenceImage": "codex-clipboard-f8497ed8-6c19-4f8d-91af-107cfc4dbdc1.png"
+    },
+    {
+      "sourceRow": 48,
+      "parcelNumber": "1007",
+      "sheetNumber": "3",
+      "included": true,
+      "lng": 105.6579435402246,
+      "lat": 10.864367683846831,
+      "estimatedAreaM2": 12220.710198424236,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 1,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.864367683846831,105.6579435402246",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.65697543246262, 10.863536391671753],
+            [105.65800780243596, 10.864957679793333],
+            [105.65815033291562, 10.865092065987099],
+            [105.65815714127807, 10.865097033629858],
+            [105.6584464237786, 10.865199237593663],
+            [105.65845142091405, 10.865200087038232],
+            [105.65851285732829, 10.865199933484014],
+            [105.65852746749981, 10.865185893041037],
+            [105.65852855620761, 10.865141778663064],
+            [105.65942597219194, 10.864930649480712],
+            [105.6585256963262, 10.86513288383356],
+            [105.65898136489136, 10.864548590937003],
+            [105.65831432952244, 10.864887521631204],
+            [105.6579435402246, 10.864367683846831],
+            [105.65793920868659, 10.86436692878607],
+            [105.65793933587152, 10.864361789428463],
+            [105.65782067573842, 10.864165029836323],
+            [105.6579559850551, 10.863689020202255],
+            [105.65726593968425, 10.86330623950508],
+            [105.65725353019319, 10.863299558430237],
+            [105.65719209377895, 10.863299711984457],
+            [105.65718383225226, 10.863302242596221],
+            [105.65696517577182, 10.863449828146779],
+            [105.6569591180944, 10.863464560455677],
+            [105.65692197181674, 10.863526765884531],
+            [105.65697543246262, 10.863536391671753]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 73,
+      "referenceImage": "codex-clipboard-908b0974-ffdb-4cba-b103-4d2662ae96b9.png"
+    },
+    {
+      "sourceRow": 49,
+      "parcelNumber": "1008",
+      "sheetNumber": "7",
+      "included": true,
+      "lng": 105.67645854491374,
+      "lat": 10.864122867963612,
+      "estimatedAreaM2": 14260.018769118924,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 5,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.864122867963612,105.67645854491374",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.67597921930395, 10.862824657136512],
+            [105.67588515995283, 10.862664761456427],
+            [105.6758858752024, 10.86262965515582],
+            [105.67586766853313, 10.862656368851864],
+            [105.67577627592384, 10.862620184815512],
+            [105.67572696791227, 10.862652530648498],
+            [105.67570530331484, 10.862700869091897],
+            [105.6757165966219, 10.862663930113717],
+            [105.67563899588855, 10.862744619425163],
+            [105.67569509282042, 10.862718465349271],
+            [105.6756526285135, 10.862753647876533],
+            [105.67573788534087, 10.86287436083675],
+            [105.67679653351689, 10.865552028912596],
+            [105.67683808300421, 10.865577270351455],
+            [105.67678812952764, 10.865625551111714],
+            [105.67693011953565, 10.865578711362408],
+            [105.67693392142507, 10.865577824916992],
+            [105.67726724311949, 10.865452043830395],
+            [105.67727663523868, 10.865438962472487],
+            [105.67727809393894, 10.865380142916162],
+            [105.67727658173106, 10.865373417440304],
+            [105.67614953781246, 10.863133748873938],
+            [105.67616297600108, 10.863047387891182],
+            [105.67613636693035, 10.863125734845667],
+            [105.67614858348823, 10.863035871086735],
+            [105.67606499863234, 10.863094765406803],
+            [105.67597921930395, 10.862824657136512]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 79,
+      "referenceImage": "codex-clipboard-b1b5bc52-39a8-4dc1-8d5b-a6d7b7c62b0e.png"
+    },
+    {
+      "sourceRow": 50,
+      "parcelNumber": "1009",
+      "sheetNumber": "7",
+      "included": true,
+      "lng": 105.67616779904732,
+      "lat": 10.864203126182897,
+      "estimatedAreaM2": 10070.217805974666,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 5,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.864203126182897,105.67616779904732",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.67554561052177, 10.862874057173698],
+            [105.67647082836926, 10.865693303177508],
+            [105.67651215560973, 10.865702270365777],
+            [105.67647048315678, 10.865742322252078],
+            [105.67657983870465, 10.86571195254536],
+            [105.67658511116122, 10.865710975054688],
+            [105.67677892408557, 10.865636991574677],
+            [105.67678812952764, 10.865625551111714],
+            [105.67683808300421, 10.865577270351455],
+            [105.67679653351689, 10.865552028912596],
+            [105.67573788534087, 10.86287436083675],
+            [105.6756526285135, 10.862753647876533],
+            [105.67569509282042, 10.862718465349271],
+            [105.67563899588855, 10.862744619425163],
+            [105.6757165966219, 10.862663930113717],
+            [105.67559291839264, 10.862744729636214],
+            [105.67550778767375, 10.862723246249757],
+            [105.6755318329725, 10.862783374313969],
+            [105.67549751509043, 10.862828346165728],
+            [105.67554561052177, 10.862874057173698]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 80,
+      "referenceImage": "codex-clipboard-b1b5bc52-39a8-4dc1-8d5b-a6d7b7c62b0e.png"
+    },
+    {
+      "sourceRow": 51,
+      "parcelNumber": "1010",
+      "sheetNumber": "4",
+      "included": true,
+      "lng": 105.67138616318286,
+      "lat": 10.866564527645917,
+      "estimatedAreaM2": 24819.896106328906,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 2,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.866564527645917,105.67138616318286",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.67102507445168, 10.86782310323267],
+            [105.67112802265467, 10.867787135372648],
+            [105.67113331741515, 10.867786149133204],
+            [105.67192404672632, 10.867482806842979],
+            [105.67193326177086, 10.867467678830112],
+            [105.6719666878613, 10.867426817472975],
+            [105.67167117856187, 10.865336368812862],
+            [105.67170714766397, 10.865305952059161],
+            [105.67165659610248, 10.865323704885778],
+            [105.67165648835241, 10.865323705148498],
+            [105.67100845100903, 10.8655508038357],
+            [105.67081152560598, 10.86561896251642],
+            [105.67080563850442, 10.865628506290186],
+            [105.67083078092305, 10.866095686799769],
+            [105.67105967855954, 10.867774539015864],
+            [105.67103412220942, 10.867808101770018],
+            [105.67107426883489, 10.867787266510826],
+            [105.67102507445168, 10.86782310323267]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 83,
+      "referenceImage": "codex-clipboard-f8497ed8-6c19-4f8d-91af-107cfc4dbdc1.png"
+    },
+    {
+      "sourceRow": 52,
+      "parcelNumber": "1011",
+      "sheetNumber": "7",
+      "included": true,
+      "lng": 105.67591524253207,
+      "lat": 10.864321932129648,
+      "estimatedAreaM2": 9902.086226187841,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 5,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.864321932129648,105.67591524253207",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.67617876539465, 10.865819886113798],
+            [105.67612916586226, 10.865877094928337],
+            [105.67619091362457, 10.86583037604207],
+            [105.67624448835268, 10.865837599910153],
+            [105.67625187330455, 10.865836723885515],
+            [105.67646122762828, 10.86575535125797],
+            [105.67647048315678, 10.865742322252078],
+            [105.67651215560973, 10.865702270365777],
+            [105.67647082836926, 10.865693303177508],
+            [105.67554561052177, 10.862874057173698],
+            [105.67549751509043, 10.862828346165728],
+            [105.6755318329725, 10.862783374313969],
+            [105.67548124168643, 10.86281870132543],
+            [105.67543964468759, 10.862766769330959],
+            [105.67538872209879, 10.862833626544317],
+            [105.67531832945441, 10.862885258945138],
+            [105.67537644963225, 10.86284747509485],
+            [105.67533484546907, 10.86289569232029],
+            [105.6753754972133, 10.862910410431352],
+            [105.6761381139601, 10.865805167928299],
+            [105.67617876539465, 10.865819886113798]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 87,
+      "referenceImage": "codex-clipboard-b1b5bc52-39a8-4dc1-8d5b-a6d7b7c62b0e.png"
+    },
+    {
+      "sourceRow": 53,
+      "parcelNumber": "1012",
+      "sheetNumber": "7",
+      "included": true,
+      "lng": 105.67564610933576,
+      "lat": 10.864378695156141,
+      "estimatedAreaM2": 10044.000885255802,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 5,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.864378695156141,105.67564610933576",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.67517964157119, 10.862970454711744],
+            [105.67584505839642, 10.865952187163854],
+            [105.67581122423506, 10.865990620981322],
+            [105.67592087496232, 10.86596349636217],
+            [105.67592614749583, 10.865962518871308],
+            [105.67611996034323, 10.865888535391486],
+            [105.67612916586226, 10.865877094928337],
+            [105.67617876539465, 10.865819886113798],
+            [105.6761381139601, 10.865805167928299],
+            [105.6753754972133, 10.862910410431352],
+            [105.67533484546907, 10.86289569232029],
+            [105.67537644963225, 10.86284747509485],
+            [105.67531832945441, 10.862885258945138],
+            [105.67538872209879, 10.862833626544317],
+            [105.67543964468759, 10.862766769330959],
+            [105.67522580986679, 10.862900184164026],
+            [105.67511345327688, 10.862914591067561],
+            [105.6751692136179, 10.862959486007975],
+            [105.67521226111609, 10.862965499761678],
+            [105.67517964157119, 10.862970454711744]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 92,
+      "referenceImage": "codex-clipboard-b1b5bc52-39a8-4dc1-8d5b-a6d7b7c62b0e.png"
+    },
+    {
+      "sourceRow": 54,
+      "parcelNumber": "1013",
+      "sheetNumber": "5",
+      "included": true,
+      "lng": 105.67463891145101,
+      "lat": 10.861949705764161,
+      "estimatedAreaM2": 36822.64515939798,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 3,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.861949705764161,105.67463891145101",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.674085042923, 10.86327984509527],
+            [105.67413539662094, 10.863352258657292],
+            [105.67409969808672, 10.863293281172151],
+            [105.6741447213815, 10.863337293507241],
+            [105.67416669799246, 10.863292042358763],
+            [105.67479413448677, 10.863072126174496],
+            [105.6750044862964, 10.862951842910011],
+            [105.6750063013859, 10.863026043627684],
+            [105.67505068521274, 10.86298228765695],
+            [105.67501264700059, 10.862943490913294],
+            [105.6750588881761, 10.862967989331386],
+            [105.67504591298862, 10.862916061968265],
+            [105.67510551268208, 10.862945821888031],
+            [105.67510735008717, 10.862915914970012],
+            [105.67511582122891, 10.862944909630878],
+            [105.67511345327688, 10.862914591067561],
+            [105.67522580986679, 10.862900184164026],
+            [105.67543964468759, 10.862766769330959],
+            [105.67548124168643, 10.86281870132543],
+            [105.6755318329725, 10.862783374313969],
+            [105.67544786266477, 10.862750831855267],
+            [105.67548984448966, 10.86271405486284],
+            [105.67541993561804, 10.862616785374998],
+            [105.6751745482197, 10.861803152609282],
+            [105.67513180124465, 10.861671057239688],
+            [105.67471033636181, 10.860574607887942],
+            [105.67472963650366, 10.860547152871028],
+            [105.67469269593111, 10.860565351439094],
+            [105.67460767287572, 10.860587611033546],
+            [105.67460230100846, 10.860590273194108],
+            [105.67394444847687, 10.861106491862968],
+            [105.67393897493051, 10.861118686269913],
+            [105.67374598992951, 10.862611106660204],
+            [105.674085042923, 10.86327984509527]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 98,
+      "referenceImage": "codex-clipboard-bc59a414-0a22-43e4-b54b-78140e2fdcb0.png"
+    },
+    {
+      "sourceRow": 55,
+      "parcelNumber": "1014",
+      "sheetNumber": "7",
+      "included": true,
+      "lng": 105.6754288526985,
+      "lat": 10.864517128289528,
+      "estimatedAreaM2": 10053.166995036414,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 5,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.864517128289528,105.6754288526985",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.67506908600225, 10.863174215581326],
+            [105.67547218641127, 10.86604367350878],
+            [105.67551927578059, 10.866077183362151],
+            [105.67547051822747, 10.866119665511492],
+            [105.6755798736984, 10.866089295804962],
+            [105.67558506489166, 10.866088349163835],
+            [105.6758020988637, 10.866006958106222],
+            [105.67581122423506, 10.865990620981322],
+            [105.67584505839642, 10.865952187163854],
+            [105.67517964157119, 10.862970454711744],
+            [105.67521226111609, 10.862965499761678],
+            [105.6751692136179, 10.862959486007975],
+            [105.67511345327688, 10.862914591067561],
+            [105.67511582122891, 10.862944909630878],
+            [105.67510735008717, 10.862915914970012],
+            [105.67510551268208, 10.862945821888031],
+            [105.67504591298862, 10.862916061968265],
+            [105.6750588881761, 10.862967989331386],
+            [105.67501264700059, 10.862943490913294],
+            [105.67505068521274, 10.86298228765695],
+            [105.67501686940447, 10.863037789843101],
+            [105.67506908600225, 10.863174215581326]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 99,
+      "referenceImage": "codex-clipboard-b1b5bc52-39a8-4dc1-8d5b-a6d7b7c62b0e.png"
+    },
+    {
+      "sourceRow": 56,
+      "parcelNumber": "1015",
+      "sheetNumber": "3",
+      "included": true,
+      "lng": 105.65724436093492,
+      "lat": 10.864278313221387,
+      "estimatedAreaM2": 12974.274323987303,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 1,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.864278313221387,105.65724436093492",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.65815033291562, 10.865092065987099],
+            [105.65800780243596, 10.864957679793333],
+            [105.65697543246262, 10.863536391671753],
+            [105.65692197181674, 10.863526765884531],
+            [105.6569591180944, 10.863464560455677],
+            [105.65686410898225, 10.863521090273638],
+            [105.65685582906258, 10.863523633308702],
+            [105.65638725342889, 10.863840938228824],
+            [105.656380923254, 10.863852435636549],
+            [105.65633838895424, 10.863912140639846],
+            [105.65637947156664, 10.863911254807368],
+            [105.65635201637043, 10.863918210653583],
+            [105.65638213884762, 10.863919887211708],
+            [105.65678986760359, 10.864534679050973],
+            [105.6569240561178, 10.864675782327637],
+            [105.65693118647658, 10.864681076624857],
+            [105.65790582205499, 10.865016829252376],
+            [105.65790941263178, 10.86501758715131],
+            [105.65799370625075, 10.865024728382956],
+            [105.65800961295388, 10.865010741144902],
+            [105.65815033291562, 10.865092065987099]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 104,
+      "referenceImage": "codex-clipboard-908b0974-ffdb-4cba-b103-4d2662ae96b9.png"
+    },
+    {
+      "sourceRow": 57,
+      "parcelNumber": "1016",
+      "sheetNumber": "5",
+      "included": true,
+      "lng": 105.66594329707559,
+      "lat": 10.860930916067769,
+      "estimatedAreaM2": 34963.3944793218,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 3,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.860930916067769,105.66594329707559",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66485345303059, 10.861867294308356],
+            [105.66444038814562, 10.861956436118973],
+            [105.66487002265883, 10.86187383217143],
+            [105.66564230828556, 10.861901928665448],
+            [105.66576951599468, 10.861611976327554],
+            [105.66784445857112, 10.86108021681489],
+            [105.66574673600262, 10.86151930340348],
+            [105.66721318087554, 10.859905396016563],
+            [105.6650439712303, 10.860440230576804],
+            [105.66503159271555, 10.86043359459305],
+            [105.66497015554185, 10.860433741517808],
+            [105.66496485985414, 10.860434727906876],
+            [105.66421282396027, 10.8607232577988],
+            [105.66404213558003, 10.86058992751597],
+            [105.66420241417525, 10.86078042521522],
+            [105.66419720910045, 10.860839526821511],
+            [105.66420444578729, 10.860788092839622],
+            [105.66420549610727, 10.86090433618599],
+            [105.66485345303059, 10.861867294308356]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 105,
+      "referenceImage": "codex-clipboard-bc59a414-0a22-43e4-b54b-78140e2fdcb0.png"
+    },
+    {
+      "sourceRow": 58,
+      "parcelNumber": "1017",
+      "sheetNumber": "4",
+      "included": true,
+      "lng": 105.66923769528998,
+      "lat": 10.866911672186749,
+      "estimatedAreaM2": 49179.20665442816,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 2,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.866911672186749,105.66923769528998",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.67102507445168, 10.86782310323267],
+            [105.67107426883489, 10.867787266510826],
+            [105.67103412220942, 10.867808101770018],
+            [105.67105967855954, 10.867774539015864],
+            [105.67083078092305, 10.866095686799769],
+            [105.67080563850442, 10.865628506290186],
+            [105.67055822845856, 10.865706632250385],
+            [105.6707495297862, 10.866084075349022],
+            [105.67010030947426, 10.865862479430792],
+            [105.66914503389029, 10.86669081609978],
+            [105.66740112174506, 10.866868969227639],
+            [105.66805296892386, 10.868009326741085],
+            [105.66914435884648, 10.866771063353138],
+            [105.66959587625132, 10.867489124572666],
+            [105.67009290048689, 10.868158192544884],
+            [105.67003414978112, 10.868194838083312],
+            [105.67010788957634, 10.868164289521543],
+            [105.67022362215738, 10.868141952544859],
+            [105.67022630214058, 10.868141168230947],
+            [105.67102507445168, 10.86782310323267]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 106,
+      "referenceImage": "codex-clipboard-f8497ed8-6c19-4f8d-91af-107cfc4dbdc1.png"
+    },
+    {
+      "sourceRow": 59,
+      "parcelNumber": "1018",
+      "sheetNumber": "6",
+      "included": true,
+      "lng": 105.67632376214323,
+      "lat": 10.86212513529221,
+      "estimatedAreaM2": 13289.113327108234,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 4,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.86212513529221,105.67632376214323",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.67606794400882, 10.862830399851095],
+            [105.67614858348823, 10.863035871086735],
+            [105.67613636693035, 10.863125734845667],
+            [105.67616297600108, 10.863047387891182],
+            [105.67614953781246, 10.863133748873938],
+            [105.67622441286692, 10.863047240967177],
+            [105.67623010272123, 10.863046096823297],
+            [105.67685085316116, 10.862787290209997],
+            [105.67685956999512, 10.862776468240053],
+            [105.6769022083109, 10.862728423338757],
+            [105.6768673598624, 10.862716473135261],
+            [105.67618021378433, 10.861186221907928],
+            [105.67614481831843, 10.861196329231479],
+            [105.67617908347648, 10.86117778808485],
+            [105.67613150620457, 10.861188026422266],
+            [105.67618803933746, 10.861126302386792],
+            [105.67608542855291, 10.861188136707376],
+            [105.67619471921458, 10.861116521710482],
+            [105.67588459165394, 10.86126669855248],
+            [105.67584397563516, 10.861330493641425],
+            [105.6758170210927, 10.861276268572137],
+            [105.67583716933875, 10.86134035103345],
+            [105.67574531597556, 10.861346186853831],
+            [105.67578293163571, 10.861415212884333],
+            [105.67582830637548, 10.861397166681718],
+            [105.6757955817324, 10.86142680629221],
+            [105.6759565267006, 10.862109973280177],
+            [105.67606794400882, 10.862830399851095]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 107,
+      "referenceImage": "codex-clipboard-88079171-4b03-453d-91f5-20cdf4f75418.png"
+    },
+    {
+      "sourceRow": 60,
+      "parcelNumber": "1019",
+      "sheetNumber": "7",
+      "included": true,
+      "lng": 105.67518346585626,
+      "lat": 10.864597831223714,
+      "estimatedAreaM2": 9703.929110864354,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 5,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.864597831223714,105.67518346585626",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.67517852595091, 10.866187343195081],
+            [105.6751448244085, 10.866243819537416],
+            [105.67524259219877, 10.866214551252074],
+            [105.67525190837524, 10.866214067144929],
+            [105.67546126269897, 10.866132694517384],
+            [105.67547051822747, 10.866119665511492],
+            [105.67551927578059, 10.866077183362151],
+            [105.67547218641127, 10.86604367350878],
+            [105.67506908600225, 10.863174215581326],
+            [105.67501686940447, 10.863037789843101],
+            [105.67505068521274, 10.86298228765695],
+            [105.6750063013859, 10.863026043627684],
+            [105.6750044862964, 10.862951842910011],
+            [105.67491151742043, 10.863027157803371],
+            [105.67484765593194, 10.863069999872037],
+            [105.67490330392273, 10.863041340696071],
+            [105.67486228717573, 10.863083130598378],
+            [105.67517852595091, 10.866187343195081]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 110,
+      "referenceImage": "codex-clipboard-b1b5bc52-39a8-4dc1-8d5b-a6d7b7c62b0e.png"
+    },
+    {
+      "sourceRow": 62,
+      "parcelNumber": "1021",
+      "sheetNumber": "7",
+      "included": true,
+      "lng": 105.67187289742371,
+      "lat": 10.863788079819718,
+      "estimatedAreaM2": 23041.19446926776,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 5,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.863788079819718,105.67187289742371",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.67043758892075, 10.862184961717647],
+            [105.67123034432062, 10.862203058751307],
+            [105.67124064980034, 10.862189666294528],
+            [105.6715811039754, 10.862085924157912],
+            [105.6715854102415, 10.862085277862544],
+            [105.67165452644414, 10.862085112656592],
+            [105.67170238508427, 10.862064478016508],
+            [105.67166911208326, 10.862097809806176],
+            [105.67180958386409, 10.863005160639757],
+            [105.67187289742371, 10.863788079819718],
+            [105.67193527599716, 10.863829715394884],
+            [105.67207061658979, 10.865103412506405],
+            [105.67212618547036, 10.865082975542506],
+            [105.67206131879088, 10.865118967482962],
+            [105.67217740864085, 10.865081935674326],
+            [105.67172178413051, 10.86528030675213],
+            [105.67168924980506, 10.865227010482718],
+            [105.67117287484537, 10.862949454119498],
+            [105.67043758892075, 10.862184961717647]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 114,
+      "referenceImage": "codex-clipboard-b1b5bc52-39a8-4dc1-8d5b-a6d7b7c62b0e.png"
+    },
+    {
+      "sourceRow": 63,
+      "parcelNumber": "1022",
+      "sheetNumber": "5",
+      "included": true,
+      "lng": 105.66721318087554,
+      "lat": 10.859905396016563,
+      "estimatedAreaM2": 40493.105627549914,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 3,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.859905396016563,105.66721318087554",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66801882751491, 10.861652985961584],
+            [105.66823203064375, 10.861005588195463],
+            [105.66831720663339, 10.860968680686476],
+            [105.66824252900885, 10.86099391137883],
+            [105.66829958525065, 10.860959478641641],
+            [105.66825103969548, 10.860928227796135],
+            [105.66785480683963, 10.859695986887925],
+            [105.66780644346966, 10.859657383533778],
+            [105.6678481908295, 10.859618901096919],
+            [105.66773111418476, 10.85964781696196],
+            [105.66772601775051, 10.859648728520801],
+            [105.66719624561215, 10.858480496228793],
+            [105.6672222829968, 10.859833735367175],
+            [105.66659532449728, 10.8586884615736],
+            [105.66721276783916, 10.859846862560106],
+            [105.6650439712303, 10.860440230576804],
+            [105.66721318087554, 10.859905396016563],
+            [105.66574673600262, 10.86151930340348],
+            [105.66784445857112, 10.86108021681489],
+            [105.66576951599468, 10.861611976327554],
+            [105.66801882751491, 10.861652985961584]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 117,
+      "referenceImage": "codex-clipboard-bc59a414-0a22-43e4-b54b-78140e2fdcb0.png"
+    },
+    {
+      "sourceRow": 64,
+      "parcelNumber": "1023",
+      "sheetNumber": "5",
+      "included": true,
+      "lng": 105.67526493263493,
+      "lat": 10.860811459160788,
+      "estimatedAreaM2": 14078.089448161412,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 3,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.860811459160788,105.67526493263493",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.67517523155014, 10.861739351142425],
+            [105.67514723282065, 10.861680588747692],
+            [105.67518225118815, 10.861727416007874],
+            [105.6752227577182, 10.86167092801002],
+            [105.67571230675469, 10.861410008930632],
+            [105.67574531597556, 10.861346186853831],
+            [105.67583716933875, 10.86134035103345],
+            [105.67575185268618, 10.86133122607022],
+            [105.67580089739137, 10.861265024630644],
+            [105.67549193258638, 10.860045235868379],
+            [105.67549727069238, 10.85988356717915],
+            [105.67543327109516, 10.859960233487074],
+            [105.67537951356795, 10.859960362055448],
+            [105.67537043013442, 10.859963488836971],
+            [105.6747283014989, 10.860464965701535],
+            [105.67472282761065, 10.860477512895233],
+            [105.67469269593111, 10.860565351439094],
+            [105.67472963650366, 10.860547152871028],
+            [105.67471033636181, 10.860574607887942],
+            [105.67513180124465, 10.861671057239688],
+            [105.67517523155014, 10.861739351142425]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 118,
+      "referenceImage": "codex-clipboard-bc59a414-0a22-43e4-b54b-78140e2fdcb0.png"
+    },
+    {
+      "sourceRow": 65,
+      "parcelNumber": "1024",
+      "sheetNumber": "7",
+      "included": true,
+      "lng": 105.67193527599716,
+      "lat": 10.863829715394884,
+      "estimatedAreaM2": 11186.553598390503,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 5,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.863829715394884,105.67193527599716",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.67193527599716, 10.863829715394884],
+            [105.67207061658979, 10.865103412506405],
+            [105.67212618547036, 10.865082975542506],
+            [105.67206131879088, 10.865118967482962],
+            [105.67217740864085, 10.865081935674326],
+            [105.67282972240477, 10.864880620530611],
+            [105.6724564369793, 10.864978336382354],
+            [105.67231691741273, 10.865030137994054],
+            [105.67238355494065, 10.864986700885494],
+            [105.67232638348216, 10.865017028972723],
+            [105.67236739719694, 10.864974099007526],
+            [105.67232810288696, 10.864941408419766],
+            [105.67210596568633, 10.862853141461674],
+            [105.67196311757044, 10.862008828906152],
+            [105.67200478806086, 10.861978490573753],
+            [105.67194853852565, 10.861996185601498],
+            [105.67188710189254, 10.861996332451255],
+            [105.6718827957034, 10.861996978746435],
+            [105.67171256857829, 10.862048849777993],
+            [105.67170238508427, 10.862064478016508],
+            [105.67166911208326, 10.862097809806176],
+            [105.67180958386409, 10.863005160639757],
+            [105.67187289742371, 10.863788079819718],
+            [105.67193527599716, 10.863829715394884]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 120,
+      "referenceImage": "codex-clipboard-b1b5bc52-39a8-4dc1-8d5b-a6d7b7c62b0e.png"
+    },
+    {
+      "sourceRow": 66,
+      "parcelNumber": "1025",
+      "sheetNumber": "4",
+      "included": true,
+      "lng": 105.66788337383326,
+      "lat": 10.86824082427772,
+      "estimatedAreaM2": 1778.7733553917244,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 2,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.86824082427772,105.66788337383326",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66818387043391, 10.868389621653407],
+            [105.66802854643126, 10.868088942534369],
+            [105.66796918100755, 10.868066677123172],
+            [105.66804390714356, 10.868018948842122],
+            [105.66795238510178, 10.868060858277873],
+            [105.66753443791009, 10.868194205649726],
+            [105.66752442151657, 10.868209637120227],
+            [105.66753082711962, 10.868261082342482],
+            [105.66754104573457, 10.868273083831252],
+            [105.66816600315879, 10.86846269971332],
+            [105.66818497575575, 10.868449301302405],
+            [105.66824232614994, 10.86844864702599],
+            [105.66818387043391, 10.868389621653407]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 126,
+      "referenceImage": "codex-clipboard-f8497ed8-6c19-4f8d-91af-107cfc4dbdc1.png"
+    },
+    {
+      "sourceRow": 67,
+      "parcelNumber": "1026",
+      "sheetNumber": "7",
+      "included": true,
+      "lng": 105.67445862707157,
+      "lat": 10.86473146484774,
+      "estimatedAreaM2": 41270.85757236932,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 5,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.86473146484774,105.67445862707157",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.67367466194437, 10.865986454777504],
+            [105.67439521313912, 10.866497786412705],
+            [105.67441128171667, 10.86651108678547],
+            [105.67448825982795, 10.866503550714304],
+            [105.67449208727571, 10.866502654628006],
+            [105.6751355095417, 10.866258499958919],
+            [105.67524259219877, 10.866214551252074],
+            [105.6751448244085, 10.866243819537416],
+            [105.67517852595091, 10.866187343195081],
+            [105.67486228717573, 10.863083130598378],
+            [105.67490330392273, 10.863041340696071],
+            [105.67484765593194, 10.863069999872037],
+            [105.67491151742043, 10.863027157803371],
+            [105.6750044862964, 10.862951842910011],
+            [105.67479413448677, 10.863072126174496],
+            [105.67416669799246, 10.863292042358763],
+            [105.6741447213815, 10.863337293507241],
+            [105.67409969808672, 10.863293281172151],
+            [105.67413539662094, 10.863352258657292],
+            [105.674085042923, 10.86327984509527],
+            [105.67391525680888, 10.86445606418254],
+            [105.67424668583976, 10.864440803057267],
+            [105.67367466194437, 10.865986454777504]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 127,
+      "referenceImage": "codex-clipboard-b1b5bc52-39a8-4dc1-8d5b-a6d7b7c62b0e.png"
+    },
+    {
+      "sourceRow": 68,
+      "parcelNumber": "1027",
+      "sheetNumber": "7",
+      "included": true,
+      "lng": 105.67271998483767,
+      "lat": 10.86286649811362,
+      "estimatedAreaM2": 28725.527256484882,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 5,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.86286649811362,105.67271998483767",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.6721108196066, 10.862856512702159],
+            [105.67212381499199, 10.862865538581117],
+            [105.67264894593251, 10.862746649545603],
+            [105.67266017619436, 10.862730714966947],
+            [105.67253668890532, 10.861826709259672],
+            [105.67251620694744, 10.861759299871173],
+            [105.67393897493051, 10.861118686269913],
+            [105.6737277402712, 10.862598464200431],
+            [105.67255736004022, 10.861889755150543],
+            [105.67271998483767, 10.86286649811362],
+            [105.67292307470777, 10.86479292484915],
+            [105.67297617952045, 10.864781984188099],
+            [105.67291810007933, 10.864872239170936],
+            [105.67291372596742, 10.864808146836893],
+            [105.67282972240477, 10.864880620530611],
+            [105.6724564369793, 10.864978336382354],
+            [105.67231691741273, 10.865030137994054],
+            [105.67238355494065, 10.864986700885494],
+            [105.67232638348216, 10.865017028972723],
+            [105.67236739719694, 10.864974099007526],
+            [105.67232810288696, 10.864941408419766],
+            [105.6721108196066, 10.862856512702159]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 129,
+      "referenceImage": "codex-clipboard-b1b5bc52-39a8-4dc1-8d5b-a6d7b7c62b0e.png"
+    },
+    {
+      "sourceRow": 69,
+      "parcelNumber": "1028",
+      "sheetNumber": "5",
+      "included": true,
+      "lng": 105.66905023005569,
+      "lat": 10.860425985985403,
+      "estimatedAreaM2": 24318.41728728981,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 3,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.860425985985403,105.66905023005569",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66823203064375, 10.861005588195463],
+            [105.66872613236283, 10.861371272561508],
+            [105.66883819507227, 10.86082034125362],
+            [105.6702940166417, 10.861455867213042],
+            [105.66847339268963, 10.859406788786778],
+            [105.6684591995187, 10.859396104757764],
+            [105.66840544206845, 10.859396233325949],
+            [105.66840016968885, 10.859397210816434],
+            [105.6678574897605, 10.859604367045273],
+            [105.6678481908295, 10.859618901096919],
+            [105.66780644346966, 10.859657383533778],
+            [105.66785480683963, 10.859695986887925],
+            [105.66825103969548, 10.860928227796135],
+            [105.66829958525065, 10.860959478641641],
+            [105.66824252900885, 10.86099391137883],
+            [105.66831720663339, 10.860968680686476],
+            [105.66823203064375, 10.861005588195463]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 132,
+      "referenceImage": "codex-clipboard-bc59a414-0a22-43e4-b54b-78140e2fdcb0.png"
+    },
+    {
+      "sourceRow": 70,
+      "parcelNumber": "1029",
+      "sheetNumber": "4",
+      "included": true,
+      "lng": 105.66903104074723,
+      "lat": 10.867701206816843,
+      "estimatedAreaM2": 24722.36453278889,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 2,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.867701206816843,105.66903104074723",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66824232614994, 10.86844864702599],
+            [105.66818497575575, 10.868449301302405],
+            [105.66825630691106, 10.868455723695867],
+            [105.66833323833673, 10.86844885506979],
+            [105.66843272948384, 10.868567695565156],
+            [105.6684391446312, 10.86857211700956],
+            [105.66860662975022, 10.868630520883245],
+            [105.66861156889242, 10.868631350280548],
+            [105.66865764359535, 10.86863123786587],
+            [105.66867090109733, 10.868622898788313],
+            [105.66869030948567, 10.868581768190174],
+            [105.66885460962423, 10.868615738278887],
+            [105.66886312457214, 10.868614996104125],
+            [105.66942092476316, 10.868393307987102],
+            [105.67002387344239, 10.868208222290416],
+            [105.67003414978112, 10.868194838083312],
+            [105.67009290048689, 10.868158192544884],
+            [105.66959587625132, 10.867489124572666],
+            [105.66914435884648, 10.866771063353138],
+            [105.66805296892386, 10.868009326741085],
+            [105.66804390714356, 10.868018948842122],
+            [105.66796918100755, 10.868066677123172],
+            [105.66802854643126, 10.868088942534369],
+            [105.66818387043391, 10.868389621653407],
+            [105.66824232614994, 10.86844864702599]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 135,
+      "referenceImage": "codex-clipboard-f8497ed8-6c19-4f8d-91af-107cfc4dbdc1.png"
+    },
+    {
+      "sourceRow": 71,
+      "parcelNumber": "1030",
+      "sheetNumber": "5",
+      "included": true,
+      "lng": 105.67564019236644,
+      "lat": 10.862220476130318,
+      "estimatedAreaM2": 9892.013265081825,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 3,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.862220476130318,105.67564019236644",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.67548984448966, 10.86271405486284],
+            [105.67544786266477, 10.862750831855267],
+            [105.6755318329725, 10.862783374313969],
+            [105.67550778767375, 10.862723246249757],
+            [105.67559291839264, 10.862744729636214],
+            [105.6757165966219, 10.862663930113717],
+            [105.67570530331484, 10.862700869091897],
+            [105.67572696791227, 10.862652530648498],
+            [105.67577627592384, 10.862620184815512],
+            [105.67586766853313, 10.862656368851864],
+            [105.6758858752024, 10.86262965515582],
+            [105.67588515995283, 10.862664761456427],
+            [105.67597921930395, 10.862824657136512],
+            [105.67606499863234, 10.863094765406803],
+            [105.67614858348823, 10.863035871086735],
+            [105.67606794400882, 10.862830399851095],
+            [105.6759565267006, 10.862109973280177],
+            [105.6757955817324, 10.86142680629221],
+            [105.67582830637548, 10.861397166681718],
+            [105.67578293163571, 10.861415212884333],
+            [105.67574531597556, 10.861346186853831],
+            [105.67571230675469, 10.861410008930632],
+            [105.6752227577182, 10.86167092801002],
+            [105.67518225118815, 10.861727416007874],
+            [105.67514723282065, 10.861680588747692],
+            [105.67517523155014, 10.861739351142425],
+            [105.67513180124465, 10.861671057239688],
+            [105.6751745482197, 10.861803152609282],
+            [105.67541993561804, 10.862616785374998],
+            [105.67548984448966, 10.86271405486284]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 138,
+      "referenceImage": "codex-clipboard-bc59a414-0a22-43e4-b54b-78140e2fdcb0.png"
+    },
+    {
+      "sourceRow": 72,
+      "parcelNumber": "1031",
+      "sheetNumber": "6",
+      "included": true,
+      "lng": 105.6767574619869,
+      "lat": 10.861779136093737,
+      "estimatedAreaM2": 13469.013923537157,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 4,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.861779136093737,105.6767574619869",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.6769022083109, 10.862728423338757],
+            [105.67685956999512, 10.862776468240053],
+            [105.6769155560373, 10.862736801584441],
+            [105.6769769929801, 10.862736654660248],
+            [105.67698249002447, 10.862735589309674],
+            [105.6773702995517, 10.86258026858479],
+            [105.67737925086664, 10.862569114477413],
+            [105.67742949542088, 10.862513472101254],
+            [105.67738740533147, 10.862502515610364],
+            [105.67672577721754, 10.860853594256463],
+            [105.67668087884087, 10.860871109381904],
+            [105.67666258784298, 10.860789009384872],
+            [105.67662748614218, 10.860856533079241],
+            [105.67660133323565, 10.860781803947422],
+            [105.67655428048327, 10.860848891484057],
+            [105.6766157996046, 10.860858192803402],
+            [105.6765473865573, 10.860860750494066],
+            [105.67619471921458, 10.861116521710482],
+            [105.67608542855291, 10.861188136707376],
+            [105.67618803933746, 10.861126302386792],
+            [105.67613150620457, 10.861188026422266],
+            [105.67617908347648, 10.86117778808485],
+            [105.67614481831843, 10.861196329231479],
+            [105.67618021378433, 10.861186221907928],
+            [105.6768673598624, 10.862716473135261],
+            [105.6769022083109, 10.862728423338757]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 140,
+      "referenceImage": "codex-clipboard-88079171-4b03-453d-91f5-20cdf4f75418.png"
+    },
+    {
+      "sourceRow": 73,
+      "parcelNumber": "1032",
+      "sheetNumber": "3",
+      "included": true,
+      "lng": 105.65635540451098,
+      "lat": 10.864264108982093,
+      "estimatedAreaM2": 4299.0130550894655,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 1,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.864264108982093,105.65635540451098",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.65679865153948, 10.864600222321847],
+            [105.6569240561178, 10.864675782327637],
+            [105.65678986760359, 10.864534679050973],
+            [105.65638213884762, 10.863919887211708],
+            [105.65635201637043, 10.863918210653583],
+            [105.65637947156664, 10.863911254807368],
+            [105.65633838895424, 10.863912140639846],
+            [105.656380923254, 10.863852435636549],
+            [105.65626909153487, 10.863919665867568],
+            [105.6562627833082, 10.86392186118255],
+            [105.65579475206597, 10.864217108950436],
+            [105.65578802310081, 10.864228866983298],
+            [105.65578675290413, 10.864280333720851],
+            [105.65579653497811, 10.86429425500795],
+            [105.65672545614707, 10.86461541806374],
+            [105.65673035882308, 10.864616234508372],
+            [105.6567841157247, 10.864616100120704],
+            [105.65679865153948, 10.864600222321847]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 141,
+      "referenceImage": "codex-clipboard-908b0974-ffdb-4cba-b103-4d2662ae96b9.png"
+    },
+    {
+      "sourceRow": 74,
+      "parcelNumber": "1033",
+      "sheetNumber": "6",
+      "included": true,
+      "lng": 105.67340202294,
+      "lat": 10.862972850307454,
+      "estimatedAreaM2": 35356.1173218172,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 4,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.862972850307454,105.67340202294",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.67297617952045, 10.864781984188099],
+            [105.67344771965219, 10.864827014344995],
+            [105.67390539074407, 10.864470975244105],
+            [105.67358840251111, 10.864817768861288],
+            [105.67424668583976, 10.864440803057267],
+            [105.67391525680888, 10.86445606418254],
+            [105.674085042923, 10.86327984509527],
+            [105.67374598992951, 10.862611106660204],
+            [105.67393897493051, 10.861118686269913],
+            [105.6737277402712, 10.862598464200431],
+            [105.67255736004022, 10.861889755150543],
+            [105.67271998483767, 10.86286649811362],
+            [105.67292307470777, 10.86479292484915],
+            [105.67297617952045, 10.864781984188099]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 142,
+      "referenceImage": "codex-clipboard-88079171-4b03-453d-91f5-20cdf4f75418.png"
+    },
+    {
+      "sourceRow": 75,
+      "parcelNumber": "1034",
+      "sheetNumber": "6",
+      "included": true,
+      "lng": 105.67605386609549,
+      "lat": 10.860447941880553,
+      "estimatedAreaM2": 13271.433997535374,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 4,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.860447941880553,105.67605386609549",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.67583716933875, 10.86134035103345],
+            [105.6758170210927, 10.861276268572137],
+            [105.67584397563516, 10.861330493641425],
+            [105.67588459165394, 10.86126669855248],
+            [105.67619471921458, 10.861116521710482],
+            [105.6765473865573, 10.860860750494066],
+            [105.6766157996046, 10.860858192803402],
+            [105.67655428048327, 10.860848891484057],
+            [105.67660133323565, 10.860781803947422],
+            [105.67655573903689, 10.860790071633366],
+            [105.6765899305501, 10.86077387196232],
+            [105.67655422052191, 10.860783333573389],
+            [105.67598260545638, 10.859562238039524],
+            [105.67594671301029, 10.859579052233483],
+            [105.67598110336995, 10.859555532727656],
+            [105.67593354866436, 10.859571050862455],
+            [105.67587979136621, 10.85957117950395],
+            [105.67587056656276, 10.859574418036248],
+            [105.67550233185585, 10.859869380699351],
+            [105.67549727069238, 10.85988356717915],
+            [105.67549193258638, 10.860045235868379],
+            [105.67580089739137, 10.861265024630644],
+            [105.67575185268618, 10.86133122607022],
+            [105.67583716933875, 10.86134035103345]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 146,
+      "referenceImage": "codex-clipboard-88079171-4b03-453d-91f5-20cdf4f75418.png"
+    },
+    {
+      "sourceRow": 76,
+      "parcelNumber": "1035",
+      "sheetNumber": "5",
+      "included": true,
+      "lng": 105.66389520417019,
+      "lat": 10.861269734604841,
+      "estimatedAreaM2": 11192.694914869098,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 3,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.861269734604841,105.66389520417019",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66444038814562, 10.861956436118973],
+            [105.66485345303059, 10.861867294308356],
+            [105.66420549610727, 10.86090433618599],
+            [105.66420444578729, 10.860788092839622],
+            [105.66419720910045, 10.860839526821511],
+            [105.66420241417525, 10.86078042521522],
+            [105.66404213558003, 10.86058992751597],
+            [105.66402959268743, 10.860583033090709],
+            [105.6639758351584, 10.860583161732768],
+            [105.66396956054753, 10.860584564671097],
+            [105.66329963533678, 10.860782085435162],
+            [105.66343346630968, 10.860835817523771],
+            [105.66330228955566, 10.860790701440429],
+            [105.66342512932682, 10.860848453410899],
+            [105.66330119559969, 10.860834816420647],
+            [105.6634238531087, 10.860899920899946],
+            [105.66329268719566, 10.860847531343655],
+            [105.66342660867919, 10.86090867702091],
+            [105.66296649570617, 10.86099535315413],
+            [105.66358259389342, 10.86112151385506],
+            [105.66293695530979, 10.861444332956719],
+            [105.66359609415987, 10.86112741021734],
+            [105.66444038814562, 10.861956436118973]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 150,
+      "referenceImage": "codex-clipboard-bc59a414-0a22-43e4-b54b-78140e2fdcb0.png"
+    },
+    {
+      "sourceRow": 77,
+      "parcelNumber": "1036",
+      "sheetNumber": "6",
+      "included": true,
+      "lng": 105.6772254407334,
+      "lat": 10.861548855862704,
+      "estimatedAreaM2": 7921.726436038708,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 4,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.861548855862704,105.6772254407334",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.67672577721754, 10.860853594256463],
+            [105.67738740533147, 10.862502515610364],
+            [105.67742949542088, 10.862513472101254],
+            [105.67737925086664, 10.862569114477413],
+            [105.67744102848705, 10.862522196652598],
+            [105.67749460352304, 10.862529420519932],
+            [105.67750205997321, 10.862528516395763],
+            [105.67772695663812, 10.862439753881574],
+            [105.67773614043924, 10.86242675290209],
+            [105.67777878872556, 10.86237349731079],
+            [105.6777362531759, 10.862361549493018],
+            [105.67699790983725, 10.860728508194113],
+            [105.67695573873313, 10.86070185543256],
+            [105.6769908981944, 10.860642558700542],
+            [105.67689632396056, 10.860693609845233],
+            [105.67699759810937, 10.860629461802482],
+            [105.67709317313125, 10.860528597247994],
+            [105.6768889178806, 10.86069560396097],
+            [105.67667209274123, 10.860786926155074],
+            [105.67672519660493, 10.860844175742876],
+            [105.67668087884087, 10.860871109381904],
+            [105.67672577721754, 10.860853594256463]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 160,
+      "referenceImage": "codex-clipboard-88079171-4b03-453d-91f5-20cdf4f75418.png"
+    },
+    {
+      "sourceRow": 78,
+      "parcelNumber": "1037",
+      "sheetNumber": "6",
+      "included": true,
+      "lng": 105.67653719662616,
+      "lat": 10.860003150729376,
+      "estimatedAreaM2": 11964.91495556572,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 4,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.860003150729376,105.67653719662616",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.67662748614218, 10.860856533079241],
+            [105.67666258784298, 10.860789009384872],
+            [105.67668087884087, 10.860871109381904],
+            [105.67672519660493, 10.860844175742876],
+            [105.67667209274123, 10.860786926155074],
+            [105.6768889178806, 10.86069560396097],
+            [105.67709317313125, 10.860528597247994],
+            [105.67713801896717, 10.860540901355137],
+            [105.67710005791382, 10.860516743860055],
+            [105.67714084458795, 10.86046448168412],
+            [105.67710133413013, 10.860465276444693],
+            [105.67712748575562, 10.860456079519103],
+            [105.6770999824642, 10.860458880448439],
+            [105.67651503352135, 10.859141529269152],
+            [105.67648716555169, 10.85915903521652],
+            [105.67651370949096, 10.85913519207685],
+            [105.6764738343549, 10.859150691855454],
+            [105.67641239741026, 10.859150838853333],
+            [105.67640318548243, 10.85915406711254],
+            [105.67598796151066, 10.859485902384588],
+            [105.67598256200053, 10.859496712876776],
+            [105.67593354866436, 10.859571050862455],
+            [105.67598110336995, 10.859555532727656],
+            [105.67594671301029, 10.859579052233483],
+            [105.67598260545638, 10.859562238039524],
+            [105.67655422052191, 10.860783333573389],
+            [105.6765899305501, 10.86077387196232],
+            [105.67655573903689, 10.860790071633366],
+            [105.67660133323565, 10.860781803947422],
+            [105.67662748614218, 10.860856533079241]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 169,
+      "referenceImage": "codex-clipboard-88079171-4b03-453d-91f5-20cdf4f75418.png"
+    },
+    {
+      "sourceRow": 79,
+      "parcelNumber": "1038",
+      "sheetNumber": "7",
+      "included": true,
+      "lng": 105.6789248339339,
+      "lat": 10.861230943055865,
+      "estimatedAreaM2": 24772.981468940354,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 5,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.861230943055865,105.6789248339339",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.67956700114416, 10.861080325755392],
+            [105.67763890570957, 10.860196476995421],
+            [105.67800744944194, 10.86226540911631],
+            [105.67956743839983, 10.86113120374258],
+            [105.67978706818752, 10.861564447255452],
+            [105.67980021984408, 10.861572423384745],
+            [105.67984629733999, 10.861572313173694],
+            [105.67985297842868, 10.86157071214688],
+            [105.68020293554811, 10.861393427227085],
+            [105.68021076215824, 10.861378893375965],
+            [105.68020435887469, 10.861327444611355],
+            [105.68019583231329, 10.861316070592801],
+            [105.67963374271535, 10.861067446078671],
+            [105.67962769015318, 10.861066176866444],
+            [105.67958161273607, 10.861066287003622],
+            [105.67956700114416, 10.861080325755392]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 171,
+      "referenceImage": "codex-clipboard-b1b5bc52-39a8-4dc1-8d5b-a6d7b7c62b0e.png"
+    },
+    {
+      "sourceRow": 80,
+      "parcelNumber": "1039",
+      "sheetNumber": "6",
+      "included": true,
+      "lng": 105.67745253980456,
+      "lat": 10.861311614948756,
+      "estimatedAreaM2": 12850.69177426776,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 4,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.861311614948756,105.67745253980456",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.67699790983725, 10.860728508194113],
+            [105.6777362531759, 10.862361549493018],
+            [105.67777878872556, 10.86237349731079],
+            [105.67773614043924, 10.86242675290209],
+            [105.67779032567044, 10.86238170438912],
+            [105.67785158027594, 10.862388909900258],
+            [105.67785912380897, 10.862387836170521],
+            [105.67799881539088, 10.86232868561168],
+            [105.67800766169441, 10.862315822649618],
+            [105.67800875564856, 10.862271707743083],
+            [105.67800744944194, 10.86226540911631],
+            [105.67763890570957, 10.860196476995421],
+            [105.67721303433495, 10.860546931991424],
+            [105.6772022837644, 10.860462195124096],
+            [105.67719965760371, 10.86053849118738],
+            [105.67719460188609, 10.860464353042625],
+            [105.67714590030556, 10.860538619828876],
+            [105.67714084458795, 10.86046448168412],
+            [105.67710005791382, 10.860516743860055],
+            [105.67713801896717, 10.860540901355137],
+            [105.67709317313125, 10.860528597247994],
+            [105.67699759810937, 10.860629461802482],
+            [105.67689632396056, 10.860693609845233],
+            [105.6769908981944, 10.860642558700542],
+            [105.67695573873313, 10.86070185543256],
+            [105.67699790983725, 10.860728508194113]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 172,
+      "referenceImage": "codex-clipboard-88079171-4b03-453d-91f5-20cdf4f75418.png"
+    },
+    {
+      "sourceRow": 81,
+      "parcelNumber": "1040",
+      "sheetNumber": "6",
+      "included": true,
+      "lng": 105.6776456547092,
+      "lat": 10.860126514394896,
+      "estimatedAreaM2": 12078.794963965016,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 4,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.860126514394896,105.6776456547092",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.67764583534618, 10.860184596162366],
+            [105.67764711156067, 10.86013312882069],
+            [105.6776456547092, 10.860126514394896],
+            [105.67698035663605, 10.858775330462983],
+            [105.67696915928602, 10.85876733910589],
+            [105.676915584327, 10.85876011523837],
+            [105.67690442341586, 10.858763146731386],
+            [105.67652064715382, 10.859065498616085],
+            [105.6764738343549, 10.859150691855454],
+            [105.67651370949096, 10.85913519207685],
+            [105.67648716555169, 10.85915903521652],
+            [105.67651503352135, 10.859141529269152],
+            [105.6770999824642, 10.860458880448439],
+            [105.67712748575562, 10.860456079519103],
+            [105.67710133413013, 10.860465276444693],
+            [105.67714084458795, 10.86046448168412],
+            [105.67714590030556, 10.860538619828876],
+            [105.67719460188609, 10.860464353042625],
+            [105.67719965760371, 10.86053849118738],
+            [105.6772022837644, 10.860462195124096],
+            [105.67721303433495, 10.860546931991424],
+            [105.67763890570957, 10.860196476995421],
+            [105.67956700114416, 10.861080325755392],
+            [105.67764583534618, 10.860184596162366]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 194,
+      "referenceImage": "codex-clipboard-88079171-4b03-453d-91f5-20cdf4f75418.png"
+    },
+    {
+      "sourceRow": 82,
+      "parcelNumber": "1041",
+      "sheetNumber": "5",
+      "included": true,
+      "lng": 105.6632461606412,
+      "lat": 10.860592300330632,
+      "estimatedAreaM2": 8963.422513634881,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 3,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.860592300330632,105.6632461606412",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66293695530979, 10.861444332956719],
+            [105.66358259389342, 10.86112151385506],
+            [105.66296649570617, 10.86099535315413],
+            [105.66342660867919, 10.86090867702091],
+            [105.66329268719566, 10.860847531343655],
+            [105.6634238531087, 10.860899920899946],
+            [105.66330119559969, 10.860834816420647],
+            [105.66342512932682, 10.860848453410899],
+            [105.66330228955566, 10.860790701440429],
+            [105.66343346630968, 10.860835817523771],
+            [105.66329963533678, 10.860782085435162],
+            [105.66396956054753, 10.860584564671097],
+            [105.66290628840092, 10.860231621328941],
+            [105.66307743639851, 10.859746462031335],
+            [105.66289628826435, 10.860225631551694],
+            [105.66306372355507, 10.859740267704545],
+            [105.66283530946878, 10.860219291122984],
+            [105.66266471641758, 10.86028586783875],
+            [105.66265778020527, 10.860291493074378],
+            [105.66263776316273, 10.860322264022766],
+            [105.66254503001785, 10.860329302477185],
+            [105.66253171660128, 10.860341225769064],
+            [105.66252276073484, 10.860392711688181],
+            [105.66252478339824, 10.860402768523247],
+            [105.66289436211329, 10.86098269780818],
+            [105.66290478882475, 10.86098931939376],
+            [105.66295836401466, 10.860996543260717],
+            [105.66293695530979, 10.861444332956719]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 198,
+      "referenceImage": "codex-clipboard-bc59a414-0a22-43e4-b54b-78140e2fdcb0.png"
+    },
+    {
+      "sourceRow": 83,
+      "parcelNumber": "1042",
+      "sheetNumber": "5",
+      "included": true,
+      "lng": 105.66322991436445,
+      "lat": 10.859647805945553,
+      "estimatedAreaM2": 14791.71646581498,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 3,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.859647805945553,105.66322991436445",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66344575355923, 10.859539394364027],
+            [105.6628748411039, 10.858717328494558],
+            [105.66286270123649, 10.858711047220009],
+            [105.66281662335577, 10.858711157431998],
+            [105.66281053277469, 10.858712475630247],
+            [105.66249988299609, 10.858852908145067],
+            [105.66249136213918, 10.858865628698213],
+            [105.66249026818139, 10.858909743752118],
+            [105.6624928111767, 10.858918201834888],
+            [105.66283530946878, 10.860219291122984],
+            [105.66306372355507, 10.859740267704545],
+            [105.66289628826435, 10.860225631551694],
+            [105.66307743639851, 10.859746462031335],
+            [105.66290628840092, 10.860231621328941],
+            [105.66396956054753, 10.860584564671097],
+            [105.66344575355923, 10.859539394364027]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 204,
+      "referenceImage": "codex-clipboard-bc59a414-0a22-43e4-b54b-78140e2fdcb0.png"
+    },
+    {
+      "sourceRow": 85,
+      "parcelNumber": "1044",
+      "sheetNumber": "6",
+      "included": true,
+      "lng": 105.66638499449041,
+      "lat": 10.859372615592306,
+      "estimatedAreaM2": 25898.625542457747,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 4,
+      "note": "Đường bao ước tính đã nối kín cạnh chung sau khi xóa MP-0061 và MP-0084; số thửa và chủ hộ giữ nguyên.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.859372615592306,105.66638499449041",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.6650439712303, 10.860440230576804],
+            [105.66721276783916, 10.859846862560106],
+            [105.66659532449728, 10.8586884615736],
+            [105.6672222829968, 10.859833735367175],
+            [105.66719624561215, 10.858480496228793],
+            [105.66772601775051, 10.859648728520801],
+            [105.66736554360001, 10.85843617286677],
+            [105.66737641671264, 10.858422619579702],
+            [105.66737787526444, 10.858363799802696],
+            [105.66737638938477, 10.85835712687107],
+            [105.66735444447461, 10.858313067107185],
+            [105.66734124749337, 10.858305000607807],
+            [105.66728749019522, 10.858305129249302],
+            [105.66728231701997, 10.858306069288862],
+            [105.66656922901821, 10.85857244883384],
+            [105.6665597907555, 10.858585547545674],
+            [105.66655851446222, 10.858637014961223],
+            [105.66656055383459, 10.858644695534608],
+            [105.6650439712303, 10.860440230576804]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 215,
+      "referenceImage": "codex-clipboard-88079171-4b03-453d-91f5-20cdf4f75418.png"
+    }
+  ],
+  "baseParcelCount": 41,
+  "additionalImages": 5,
+  "removedSourceRows": [61, 84],
+  "connectedParcelCount": 83
+}

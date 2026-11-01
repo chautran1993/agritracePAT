@@ -1,0 +1,20 @@
+{
+  "name": "agritrace-portal",
+  "account_id": "471e85bf9b127810b7be8e904ce03452",
+  "compatibility_date": "2026-10-25",
+  "workers_dev": true,
+  "preview_urls": false,
+  "main": "worker/index.ts",
+  "d1_databases": [{
+    "binding": "DB",
+    "database_name": "agritrace-db",
+    "database_id": "f1ee0614-1e67-46ec-94c7-500bcfe12a7f",
+    "migrations_dir": "migrations"
+  }],
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*"],
+  },
+}

@@ -10,3 +10,12 @@ coverage/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+playwright-report/
+test-results/
+
+.tmp-analysis/
+.wrangler/
+.dev.vars
+.dev.vars.*
+

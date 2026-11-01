@@ -1,7 +1,186 @@
-import {createContext,useContext,useState,type ReactNode} from 'react';
-export type Lang='vi'|'en';
-export const dictionaries={vi:{appName:'AgriTrace Portal',dashboard:'Tổng quan',map:'Bản đồ số',zones:'Danh mục vùng trồng',plots:'Hồ sơ thửa ruộng',standards:'Thư viện tiêu chuẩn',farming:'Quy trình canh tác lúa',traceability:'Hành trình truy xuất',iot:'IoT',carbon:'Carbon MRV',users:'Người dùng & phân quyền',audit:'Nhật ký hệ thống',overviewGroup:'Tổng quan',zonesGroup:'Vùng trồng',standardsGroup:'Tiêu chuẩn & Quy trình',traceabilityGroup:'Truy xuất',monitoringGroup:'Giám sát',adminGroup:'Quản trị',search:'Tìm kiếm nhanh...',province:'Tỉnh',commune:'Xã',role:'Cán bộ quản lý',collapse:'Thu gọn',preview:'Preview – Phase 2/3',empty:'Màn hình đang được hoàn thiện',emptyBody:'Nội dung chi tiết sẽ được triển khai ở bước tiếp theo.'},en:{appName:'AgriTrace Portal',dashboard:'Dashboard',map:'Digital map',zones:'Planting zones',plots:'Rice plot records',standards:'Standards library',farming:'Rice farming process',traceability:'Traceability journey',iot:'IoT',carbon:'Carbon MRV',users:'Users & permissions',audit:'System log',overviewGroup:'Overview',zonesGroup:'Planting zones',standardsGroup:'Standards & Process',traceabilityGroup:'Traceability',monitoringGroup:'Monitoring',adminGroup:'Administration',search:'Search...',province:'Province',commune:'Commune',role:'Management officer',collapse:'Collapse',preview:'Preview – Phase 2/3',empty:'Screen under construction',emptyBody:'Detailed content will be implemented in the next step.'}} as const;
-export const navGroups=[{label:'overview',items:[{key:'dashboard',path:'/dashboard'}]},{label:'zones',items:[{key:'map',path:'/map'},{key:'zones',path:'/zones'},{key:'plots',path:'/plots'}]},{label:'standards',items:[{key:'standards',path:'/standards'},{key:'farming',path:'/farming'}]},{label:'traceability',items:[{key:'traceability',path:'/traceability'}]},{label:'monitoring',items:[{key:'iot',path:'/iot'},{key:'carbon',path:'/carbon'}]},{label:'admin',items:[{key:'users',path:'/users'},{key:'audit',path:'/audit'}]}] as const;
-export const roleAccess:Record<string,string[]>={quanly:['dashboard','map','zones','plots','standards','farming','traceability','iot','carbon','users','audit'],htx:['dashboard','map','zones','plots','farming','traceability'],kythuat:['dashboard','map','plots','farming','iot','audit'],doanhnghiep:['dashboard','map','zones','traceability']};
-export const roleLabels={quanly:{vi:'Cán bộ quản lý',en:'Management officer'},htx:{vi:'Hợp tác xã',en:'Cooperative'},kythuat:{vi:'Kỹ thuật viên',en:'Field technician'},doanhnghiep:{vi:'Doanh nghiệp',en:'Enterprise'}} as const;
-export const I18nContext=createContext<{lang:Lang;setLang:(x:Lang)=>void}>({lang:'vi',setLang:()=>{}}); export function I18nProvider({children}:{children:ReactNode}){const[lang,setLang]=useState<Lang>('vi');return <I18nContext.Provider value={{lang,setLang}}>{children}</I18nContext.Provider>} export function useI18n(){const{lang,setLang}=useContext(I18nContext);return{lang,setLang,t:dictionaries[lang]}}
+import { createContext, useContext, useEffect, useState, type ReactNode } from 'react';
+export type Lang = 'vi' | 'en';
+export const dictionaries = {
+  vi: {
+    openNavigation: 'Mở điều hướng',
+    expandNavigation: 'Mở rộng điều hướng',
+    collapseNavigation: 'Thu gọn điều hướng',
+    notifications: 'Thông báo',
+    account: 'Thông tin tài khoản',
+    password: 'Đổi mật khẩu',
+    unread: 'chưa đọc',
+    close: 'Đóng',
+    skipContent: 'Bỏ qua tới nội dung',
+    scrollTable: 'Bảng dữ liệu có thể cuộn ngang',
+    breadcrumb: 'Đường dẫn trang',
+    copyPdi: 'Sao chép mã PDI',
+    lockAccount: 'Khóa tài khoản',
+    unlockAccount: 'Mở khóa tài khoản',
+    resetPassword: 'Đổi mật khẩu',
+    filters: 'Bộ lọc',
+    seasonFilter: 'Lọc theo mùa vụ',
+    zoneFilter: 'Lọc theo vùng trồng',
+    varietyFilter: 'Lọc theo giống lúa',
+    statusFilter: 'Lọc theo trạng thái',
+    zoneSearch: 'Tìm vùng trồng',
+    plotSearch: 'Tìm thửa ruộng',
+    usersSearch: 'Tìm người dùng',
+    tabs: 'Các mục nội dung',
+    zoomIn: 'Phóng to',
+    zoomOut: 'Thu nhỏ',
+    switchLanguage: 'Đổi ngôn ngữ',
+    appName: 'AgriTrace Portal',
+    dashboard: 'Tổng quan',
+    map: 'Bản đồ số',
+    zones: 'Danh mục vùng trồng',
+    plots: 'Hồ sơ thửa ruộng',
+    standards: 'Thư viện tiêu chuẩn',
+    farming: 'Quy trình canh tác lúa',
+    traceability: 'Hành trình truy xuất',
+    iot: 'IoT',
+    carbon: 'Carbon MRV',
+    users: 'Người dùng & phân quyền',
+    audit: 'Nhật ký hệ thống',
+    overviewGroup: 'Tổng quan',
+    zonesGroup: 'Vùng trồng',
+    standardsGroup: 'Tiêu chuẩn & Quy trình',
+    traceabilityGroup: 'Truy xuất',
+    monitoringGroup: 'Giám sát',
+    adminGroup: 'Quản trị',
+    search: 'Tìm kiếm nhanh...',
+    province: 'Tỉnh',
+    commune: 'Xã',
+    role: 'Cán bộ quản lý',
+    collapse: 'Thu gọn',
+    preview: 'Đang hoạt động',
+    empty: 'Màn hình đang được hoàn thiện',
+    emptyBody: 'Nội dung chi tiết sẽ được triển khai ở bước tiếp theo.',
+  },
+  en: {
+    openNavigation: 'Open navigation',
+    expandNavigation: 'Expand navigation',
+    collapseNavigation: 'Collapse navigation',
+    notifications: 'Notifications',
+    account: 'Account details',
+    password: 'Change password',
+    unread: 'unread',
+    close: 'Close',
+    skipContent: 'Skip to content',
+    scrollTable: 'Horizontally scrollable data table',
+    breadcrumb: 'Breadcrumb',
+    copyPdi: 'Copy PDI',
+    lockAccount: 'Lock account',
+    unlockAccount: 'Unlock account',
+    resetPassword: 'Reset password',
+    filters: 'Filters',
+    seasonFilter: 'Filter by season',
+    zoneFilter: 'Filter by planting zone',
+    varietyFilter: 'Filter by rice variety',
+    statusFilter: 'Filter by status',
+    zoneSearch: 'Search planting zones',
+    plotSearch: 'Search plots',
+    usersSearch: 'Search users',
+    tabs: 'Content sections',
+    zoomIn: 'Zoom in',
+    zoomOut: 'Zoom out',
+    switchLanguage: 'Switch language',
+    appName: 'AgriTrace Portal',
+    dashboard: 'Dashboard',
+    map: 'Digital map',
+    zones: 'Planting zones',
+    plots: 'Rice plot records',
+    standards: 'Standards library',
+    farming: 'Rice farming process',
+    traceability: 'Traceability journey',
+    iot: 'IoT',
+    carbon: 'Carbon MRV',
+    users: 'Users & permissions',
+    audit: 'System log',
+    overviewGroup: 'Overview',
+    zonesGroup: 'Planting zones',
+    standardsGroup: 'Standards & Process',
+    traceabilityGroup: 'Traceability',
+    monitoringGroup: 'Monitoring',
+    adminGroup: 'Administration',
+    search: 'Search...',
+    province: 'Province',
+    commune: 'Commune',
+    role: 'Management officer',
+    collapse: 'Collapse',
+    preview: 'Đang hoạt động',
+    empty: 'Screen under construction',
+    emptyBody: 'Detailed content will be implemented in the next step.',
+  },
+} as const;
+export const navGroups = [
+  { label: 'overview', items: [{ key: 'dashboard', path: '/dashboard' }] },
+  {
+    label: 'zones',
+    items: [
+      { key: 'map', path: '/map' },
+      { key: 'zones', path: '/zones' },
+      { key: 'plots', path: '/plots' },
+    ],
+  },
+  {
+    label: 'standards',
+    items: [
+      { key: 'standards', path: '/standards' },
+      { key: 'farming', path: '/farming' },
+    ],
+  },
+  { label: 'traceability', items: [{ key: 'traceability', path: '/traceability' }] },
+  {
+    label: 'monitoring',
+    items: [
+      { key: 'iot', path: '/iot' },
+      { key: 'carbon', path: '/carbon' },
+    ],
+  },
+  {
+    label: 'admin',
+    items: [
+      { key: 'users', path: '/users' },
+      { key: 'audit', path: '/audit' },
+    ],
+  },
+] as const;
+export const roleAccess: Record<string, string[]> = {
+  quanly: [
+    'dashboard',
+    'map',
+    'zones',
+    'plots',
+    'standards',
+    'farming',
+    'traceability',
+    'iot',
+    'carbon',
+    'users',
+    'audit',
+  ],
+  htx: ['dashboard', 'map', 'zones', 'plots', 'farming', 'traceability'],
+  kythuat: ['dashboard', 'map', 'plots', 'farming', 'iot', 'audit'],
+  doanhnghiep: ['dashboard', 'map', 'zones', 'traceability'],
+};
+export const roleLabels = {
+  quanly: { vi: 'Cán bộ quản lý', en: 'Management officer' },
+  htx: { vi: 'Hợp tác xã', en: 'Cooperative' },
+  kythuat: { vi: 'Kỹ thuật viên', en: 'Field technician' },
+  doanhnghiep: { vi: 'Doanh nghiệp', en: 'Enterprise' },
+} as const;
+export const I18nContext = createContext<{ lang: Lang; setLang: (x: Lang) => void }>({
+  lang: 'vi',
+  setLang: () => {},
+});
+export function I18nProvider({ children }: { children: ReactNode }) {
+  const [lang, setLang] = useState<Lang>('vi');
+  useEffect(() => {
+    document.documentElement.lang = lang;
+  }, [lang]);
+  return <I18nContext.Provider value={{ lang, setLang }}>{children}</I18nContext.Provider>;
+}
+export function useI18n() {
+  const { lang, setLang } = useContext(I18nContext);
+  return { lang, setLang, t: dictionaries[lang] };
+}

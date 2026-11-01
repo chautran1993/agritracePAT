@@ -1,0 +1,1282 @@
+{
+  "source": "Only complete visible parcels traced from the supplied screenshot; exact red sample boundary preserved",
+  "referenceImage": "codex-clipboard-912f1e92-fd9e-402b-9fbb-7a38e52a8858.png",
+  "affineCoefficients": [
+    [0.000007696433827655835, 1.8235183164849733e-7, 105.65633964471124],
+    [-1.8765721683175474e-8, -0.000007368571563227955, 10.868983276368937]
+  ],
+  "records": [
+    {
+      "sourceRow": 1,
+      "parcelNumber": "17",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66005993357149,
+      "lat": 10.86297741787977,
+      "estimatedAreaM2": 22928.852921555157,
+      "reportedAreaM2": 22832.7,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Giữ nguyên 18 góc người dùng cung cấp. Diện tích ghi nhận: 22.832,7 m².",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.86297741787977,105.66005993357149",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.65958648700007, 10.861599029000047],
+            [105.65922950300006, 10.86184729100006],
+            [105.65902814100008, 10.861978150000027],
+            [105.65911946800009, 10.862145533000046],
+            [105.65930204700004, 10.862421439000059],
+            [105.65953948100008, 10.862787775000072],
+            [105.65977224900007, 10.863158721000048],
+            [105.66001873300007, 10.863547753000034],
+            [105.66026073900008, 10.863923130000046],
+            [105.66048893600004, 10.864294074000043],
+            [105.66101971300009, 10.864050564000024],
+            [105.66113406300008, 10.86400548000006],
+            [105.66084642800007, 10.863575751000042],
+            [105.66063642200004, 10.863245499000072],
+            [105.66037621600009, 10.862861074000023],
+            [105.66016163700004, 10.862530821000064],
+            [105.65988772800006, 10.862092053000026],
+            [105.65967315300009, 10.861752848000037],
+            [105.65958648700007, 10.861599029000047]
+          ]
+        ]
+      },
+      "boundaryEstimated": false,
+      "imageOutlineIndex": null
+    },
+    {
+      "sourceRow": 2,
+      "parcelNumber": "101",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66368644778468,
+      "lat": 10.866286475878479,
+      "estimatedAreaM2": 13650.587473355794,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.866286475878479,105.66368644778468",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66292825787674, 10.866771509945385],
+            [105.6636103228581, 10.866887736941168],
+            [105.66444463769263, 10.866760444526651],
+            [105.66423267161139, 10.865685214815791],
+            [105.66340809673774, 10.866040895417326],
+            [105.66292825787674, 10.866771509945385]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 0
+    },
+    {
+      "sourceRow": 3,
+      "parcelNumber": "102",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66358046474406,
+      "lat": 10.865775457949553,
+      "estimatedAreaM2": 13724.993537534752,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.865775457949553,105.66358046474406",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66292825787674, 10.866771509945385],
+            [105.66340809673774, 10.866040895417326],
+            [105.66423267161139, 10.865685214815791],
+            [105.66403960073951, 10.864779405953723],
+            [105.66319211891621, 10.865127774280857],
+            [105.66292825787674, 10.866771509945385]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 1
+    },
+    {
+      "sourceRow": 4,
+      "parcelNumber": "103",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66347323696488,
+      "lat": 10.864482358085954,
+      "estimatedAreaM2": 10859.804252853912,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.864482358085954,105.66347323696488",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66319211891621, 10.865127774280857],
+            [105.66403960073951, 10.864779405953723],
+            [105.66377047728851, 10.863836941891053],
+            [105.66290687319022, 10.864214822035883],
+            [105.66319211891621, 10.865127774280857]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 2
+    },
+    {
+      "sourceRow": 5,
+      "parcelNumber": "104",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66324855977443,
+      "lat": 10.863635619773582,
+      "estimatedAreaM2": 9042.976737763034,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.863635619773582,105.66324855977443",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66290687319022, 10.864214822035883],
+            [105.66377047728851, 10.863836941891053],
+            [105.66356661000167, 10.86305641751128],
+            [105.66272664226035, 10.863412135644255],
+            [105.66290687319022, 10.864214822035883]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 3
+    },
+    {
+      "sourceRow": 6,
+      "parcelNumber": "105",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66447701803853,
+      "lat": 10.864590278224089,
+      "estimatedAreaM2": 20065.607634091004,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.864590278224089,105.66447701803853",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66377047728851, 10.863836941891053],
+            [105.66403960073951, 10.864779405953723],
+            [105.66423267161139, 10.865685214815791],
+            [105.66518355878856, 10.864268215954771],
+            [105.66486406264247, 10.863495341632387],
+            [105.66377047728851, 10.863836941891053]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 4
+    },
+    {
+      "sourceRow": 7,
+      "parcelNumber": "106",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66518355878856,
+      "lat": 10.864268215954771,
+      "estimatedAreaM2": 22440.94827008089,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.864268215954771,105.66518355878856",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66423267161139, 10.865685214815791],
+            [105.66622122557868, 10.863698340103419],
+            [105.66711058487478, 10.86414562737934],
+            [105.66591216114388, 10.862814918441865],
+            [105.66486406264247, 10.863495341632387],
+            [105.66518355878856, 10.864268215954771],
+            [105.66423267161139, 10.865685214815791]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 5
+    },
+    {
+      "sourceRow": 8,
+      "parcelNumber": "107",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66390050897613,
+      "lat": 10.862640637423887,
+      "estimatedAreaM2": 28755.83183125556,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.862640637423887,105.66390050897613",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66293695530979, 10.861444332956719],
+            [105.66337485324951, 10.862408489888201],
+            [105.66356661000167, 10.86305641751128],
+            [105.66377047728851, 10.863836941891053],
+            [105.66486406264247, 10.863495341632387],
+            [105.66444038814562, 10.861956436118973],
+            [105.66293695530979, 10.861444332956719]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 6
+    },
+    {
+      "sourceRow": 9,
+      "parcelNumber": "108",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66622960783027,
+      "lat": 10.862574163796985,
+      "estimatedAreaM2": 37886.655658197546,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.862574163796985,105.66622960783027",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66444038814562, 10.861956436118973],
+            [105.66486406264247, 10.863495341632387],
+            [105.66591216114388, 10.862814918441865],
+            [105.66663380240537, 10.862886840179659],
+            [105.66801882751491, 10.861652985961584],
+            [105.66564230828556, 10.861901928665448],
+            [105.66444038814562, 10.861956436118973]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 7
+    },
+    {
+      "sourceRow": 10,
+      "parcelNumber": "109",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66567162824308,
+      "lat": 10.865409509472457,
+      "estimatedAreaM2": 67645.8077083608,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.865409509472457,105.66567162824308",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66423267161139, 10.865685214815791],
+            [105.66444463769263, 10.866760444526651],
+            [105.66477434554129, 10.867120678841495],
+            [105.66700546897329, 10.866216327348658],
+            [105.66646853619102, 10.864589280462312],
+            [105.66711058487478, 10.86414562737934],
+            [105.66622122557868, 10.863698340103419],
+            [105.66423267161139, 10.865685214815791]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 8
+    },
+    {
+      "sourceRow": 11,
+      "parcelNumber": "110",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66708689796512,
+      "lat": 10.865180977363998,
+      "estimatedAreaM2": 16359.21011079948,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.865180977363998,105.66708689796512",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66646853619102, 10.864589280462312],
+            [105.66700546897329, 10.866216327348658],
+            [105.66770525973922, 10.86592726414274],
+            [105.6676262518739, 10.865699044847219],
+            [105.66755421103507, 10.86550028107223],
+            [105.66739674235993, 10.865021736766495],
+            [105.66718995744377, 10.864359109531735],
+            [105.66711058487478, 10.86414562737934],
+            [105.66646853619102, 10.864589280462312]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 9
+    },
+    {
+      "sourceRow": 12,
+      "parcelNumber": "111",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66940022338582,
+      "lat": 10.865230527488471,
+      "estimatedAreaM2": 6032.402642717367,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.865230527488471,105.66940022338582",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.6676262518739, 10.865699044847219],
+            [105.66770525973922, 10.86592726414274],
+            [105.66940022338582, 10.865230527488471],
+            [105.67010030947426, 10.865862479430792],
+            [105.6693212155205, 10.865002308192949],
+            [105.6676262518739, 10.865699044847219]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 10
+    },
+    {
+      "sourceRow": 13,
+      "parcelNumber": "112",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66843771327778,
+      "lat": 10.865251304015448,
+      "estimatedAreaM2": 4723.393320544793,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.865251304015448,105.66843771327778",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.6676262518739, 10.865699044847219],
+            [105.6693212155205, 10.865002308192949],
+            [105.66924147824784, 10.86480356318368],
+            [105.66755421103507, 10.86550028107223],
+            [105.6676262518739, 10.865699044847219]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 11
+    },
+    {
+      "sourceRow": 14,
+      "parcelNumber": "113",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66831911030388,
+      "lat": 10.864920037312373,
+      "estimatedAreaM2": 10991.998091655336,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.864920037312373,105.66831911030388",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66755421103507, 10.86550028107223],
+            [105.66924147824784, 10.86480356318368],
+            [105.66906825200138, 10.864339793552517],
+            [105.66739674235993, 10.865021736766495],
+            [105.66755421103507, 10.86550028107223]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 12
+    },
+    {
+      "sourceRow": 15,
+      "parcelNumber": "114",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66808941843809,
+      "lat": 10.86389653772823,
+      "estimatedAreaM2": 21192.168822743064,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.86389653772823,105.66808941843809",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66711058487478, 10.86414562737934],
+            [105.66718995744377, 10.864359109531735],
+            [105.66739674235993, 10.865021736766495],
+            [105.66906825200138, 10.864339793552517],
+            [105.66867609264717, 10.862771338689964],
+            [105.6687360982651, 10.863456428188128],
+            [105.66711058487478, 10.86414562737934]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 13
+    },
+    {
+      "sourceRow": 16,
+      "parcelNumber": "115",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.6673241297045,
+      "lat": 10.863458483034652,
+      "estimatedAreaM2": 17100.57710356947,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.863458483034652,105.6673241297045",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66591216114388, 10.862814918441865],
+            [105.66711058487478, 10.86414562737934],
+            [105.6687360982651, 10.863456428188128],
+            [105.66867609264717, 10.862771338689964],
+            [105.66848919001333, 10.862860211926042],
+            [105.66685616254101, 10.863542061311414],
+            [105.66591216114388, 10.862814918441865]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 14
+    },
+    {
+      "sourceRow": 17,
+      "parcelNumber": "116",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66720067557861,
+      "lat": 10.862597523636499,
+      "estimatedAreaM2": 24457.602487876535,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.862597523636499,105.66720067557861",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66591216114388, 10.862814918441865],
+            [105.66685616254101, 10.863542061311414],
+            [105.66848919001333, 10.862860211926042],
+            [105.66839839866009, 10.862175197490766],
+            [105.66820507605523, 10.862212509491625],
+            [105.66801882751491, 10.861652985961584],
+            [105.66663380240537, 10.862886840179659],
+            [105.66591216114388, 10.862814918441865]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 15
+    },
+    {
+      "sourceRow": 18,
+      "parcelNumber": "117",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66993972198952,
+      "lat": 10.865132653063043,
+      "estimatedAreaM2": 12714.501635250328,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.865132653063043,105.66993972198952",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.6693212155205, 10.865002308192949],
+            [105.67010030947426, 10.865862479430792],
+            [105.67055822845856, 10.865706632250385],
+            [105.67041348675474, 10.864402826695292],
+            [105.67011077290981, 10.864506718560323],
+            [105.6693212155205, 10.865002308192949]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 16
+    },
+    {
+      "sourceRow": 19,
+      "parcelNumber": "118",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.67068460893378,
+      "lat": 10.863959148245856,
+      "estimatedAreaM2": 12302.57151432165,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.863959148245856,105.67068460893378",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.67036076685852, 10.862211664241327],
+            [105.67041348675474, 10.864402826695292],
+            [105.67055822845856, 10.865706632250385],
+            [105.67100845100903, 10.8655508038357],
+            [105.6707151758698, 10.863407393968275],
+            [105.67044430421429, 10.863157538101106],
+            [105.67036076685852, 10.862211664241327]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 17
+    },
+    {
+      "sourceRow": 20,
+      "parcelNumber": "119",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.67107572593912,
+      "lat": 10.864250128977599,
+      "estimatedAreaM2": 19009.668979058548,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.864250128977599,105.67107572593912",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.67100845100903, 10.8655508038357],
+            [105.67170714766397, 10.865305952059161],
+            [105.67117287484537, 10.862949454119498],
+            [105.67044430421429, 10.863157538101106],
+            [105.6707151758698, 10.863407393968275],
+            [105.67100845100903, 10.8655508038357]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 18
+    },
+    {
+      "sourceRow": 21,
+      "parcelNumber": "120",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66939343277849,
+      "lat": 10.863805187416888,
+      "estimatedAreaM2": 14105.180286699599,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.863805187416888,105.66939343277849",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66867609264717, 10.862771338689964],
+            [105.66906825200138, 10.864339793552517],
+            [105.66924147824784, 10.86480356318368],
+            [105.6693212155205, 10.865002308192949],
+            [105.67011077290981, 10.864506718560323],
+            [105.66967612557883, 10.864655140872001],
+            [105.66915728328478, 10.862608066640828],
+            [105.66867609264717, 10.862771338689964]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 19
+    },
+    {
+      "sourceRow": 22,
+      "parcelNumber": "121",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66963402809729,
+      "lat": 10.863557364451992,
+      "estimatedAreaM2": 12005.660738037303,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.863557364451992,105.66963402809729",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66967612557883, 10.864655140872001],
+            [105.67011077290981, 10.864506718560323],
+            [105.66961501991725, 10.862459588031985],
+            [105.66915728328478, 10.862608066640828],
+            [105.66967612557883, 10.864655140872001]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 20
+    },
+    {
+      "sourceRow": 23,
+      "parcelNumber": "122",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.67001425333599,
+      "lat": 10.863359191400825,
+      "estimatedAreaM2": 14045.57576760071,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.863359191400825,105.67001425333599",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66961501991725, 10.862459588031985],
+            [105.67011077290981, 10.864506718560323],
+            [105.67041348675474, 10.864402826695292],
+            [105.67036076685852, 10.862211664241327],
+            [105.66992524784416, 10.862363045972796],
+            [105.66961501991725, 10.862459588031985]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 21
+    },
+    {
+      "sourceRow": 24,
+      "parcelNumber": "123",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66877784097244,
+      "lat": 10.862413906671982,
+      "estimatedAreaM2": 5188.586447867752,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.862413906671982,105.66877784097244",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66839839866009, 10.862175197490766],
+            [105.66848919001333, 10.862860211926042],
+            [105.66867609264717, 10.862771338689964],
+            [105.66915728328478, 10.862608066640828],
+            [105.66892686201165, 10.861967601417922],
+            [105.66839839866009, 10.862175197490766]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 22
+    },
+    {
+      "sourceRow": 25,
+      "parcelNumber": "124",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66927094096445,
+      "lat": 10.862195163913185,
+      "estimatedAreaM2": 4155.0035357604365,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.862195163913185,105.66927094096445",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66915728328478, 10.862608066640828],
+            [105.66961501991725, 10.862459588031985],
+            [105.6693932068371, 10.86178226118554],
+            [105.66892686201165, 10.861967601417922],
+            [105.66915728328478, 10.862608066640828]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 23
+    },
+    {
+      "sourceRow": 26,
+      "parcelNumber": "125",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66958186064178,
+      "lat": 10.861915430296747,
+      "estimatedAreaM2": 11629.409982888285,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.861915430296747,105.66958186064178",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66872613236283, 10.861371272561508],
+            [105.6693932068371, 10.86178226118554],
+            [105.66961501991725, 10.862459588031985],
+            [105.66992524784416, 10.862363045972796],
+            [105.67043758892075, 10.862184961717647],
+            [105.6702940166417, 10.861455867213042],
+            [105.66872613236283, 10.861371272561508]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 24
+    },
+    {
+      "sourceRow": 27,
+      "parcelNumber": "126",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.668706017176,
+      "lat": 10.861791891026567,
+      "estimatedAreaM2": 7671.342876084264,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.861791891026567,105.668706017176",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66801882751491, 10.861652985961584],
+            [105.66820507605523, 10.862212509491625],
+            [105.66839839866009, 10.862175197490766],
+            [105.66892686201165, 10.861967601417922],
+            [105.6693932068371, 10.86178226118554],
+            [105.66872613236283, 10.861371272561508],
+            [105.66801882751491, 10.861652985961584]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 25
+    },
+    {
+      "sourceRow": 28,
+      "parcelNumber": "127",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66218248375549,
+      "lat": 10.865789522705228,
+      "estimatedAreaM2": 32948.36055572982,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.865789522705228,105.66218248375549",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66117284859475, 10.866178971764752],
+            [105.66200483051236, 10.86645693202049],
+            [105.66292825787674, 10.866771509945385],
+            [105.66319211891621, 10.865127774280857],
+            [105.6626412580136, 10.86499649112468],
+            [105.66156849842534, 10.864807535465072],
+            [105.66117284859475, 10.866178971764752]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 26
+    },
+    {
+      "sourceRow": 29,
+      "parcelNumber": "128",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66204567732265,
+      "lat": 10.864687330136293,
+      "estimatedAreaM2": 5012.955734721863,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.864687330136293,105.66204567732265",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66156849842534, 10.864807535465072],
+            [105.6626412580136, 10.86499649112468],
+            [105.6623948968173, 10.864378169147907],
+            [105.66145009663173, 10.864616252855974],
+            [105.66156849842534, 10.864807535465072]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 27
+    },
+    {
+      "sourceRow": 30,
+      "parcelNumber": "129",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66176853039106,
+      "lat": 10.864081337085938,
+      "estimatedAreaM2": 9512.239621008814,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.864081337085938,105.66176853039106",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66145009663173, 10.864616252855974],
+            [105.6623948968173, 10.864378169147907],
+            [105.66204607375056, 10.863546421315903],
+            [105.66114216396481, 10.863998081004974],
+            [105.66145009663173, 10.864616252855974]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 28
+    },
+    {
+      "sourceRow": 31,
+      "parcelNumber": "130",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66081628037531,
+      "lat": 10.862737771683772,
+      "estimatedAreaM2": 40250.6044377567,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.862737771683772,105.66081628037531",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.65958648700007, 10.861599029000047],
+            [105.65967315300009, 10.861752848000037],
+            [105.65988772800006, 10.862092053000026],
+            [105.66016163700004, 10.862530821000064],
+            [105.66037621600009, 10.862861074000023],
+            [105.66063642200004, 10.863245499000072],
+            [105.66113312289994, 10.864004075482724],
+            [105.66114216396481, 10.863998081004974],
+            [105.66204607375056, 10.863546421315903],
+            [105.66155440781208, 10.861956104693041],
+            [105.66087376398848, 10.861471467884819],
+            [105.65958648700007, 10.861599029000047]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 29
+    },
+    {
+      "sourceRow": 32,
+      "parcelNumber": "131",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66279350786675,
+      "lat": 10.86467129815837,
+      "estimatedAreaM2": 4992.298498329279,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.86467129815837,105.66279350786675",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.6626412580136, 10.86499649112468],
+            [105.66319211891621, 10.865127774280857],
+            [105.66290687319022, 10.864214822035883],
+            [105.6623948968173, 10.864378169147907],
+            [105.6626412580136, 10.86499649112468]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 30
+    },
+    {
+      "sourceRow": 33,
+      "parcelNumber": "132",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66247647347039,
+      "lat": 10.863895152396081,
+      "estimatedAreaM2": 6394.978277526477,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.863895152396081,105.66247647347039",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.6623948968173, 10.864378169147907],
+            [105.66290687319022, 10.864214822035883],
+            [105.66272664226035, 10.863412135644255],
+            [105.66204607375056, 10.863546421315903],
+            [105.6623948968173, 10.864378169147907]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 31
+    },
+    {
+      "sourceRow": 34,
+      "parcelNumber": "133",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66222018699507,
+      "lat": 10.86249537713631,
+      "estimatedAreaM2": 39200.509340582794,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.86249537713631,105.66222018699507",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66087376398848, 10.861471467884819],
+            [105.66155440781208, 10.861956104693041],
+            [105.66204607375056, 10.863546421315903],
+            [105.66272664226035, 10.863412135644255],
+            [105.66356661000167, 10.86305641751128],
+            [105.66337485324951, 10.862408489888201],
+            [105.66293695530979, 10.861444332956719],
+            [105.66087376398848, 10.861471467884819]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 32
+    },
+    {
+      "sourceRow": 35,
+      "parcelNumber": "134",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.6610932153938,
+      "lat": 10.864090041462639,
+      "estimatedAreaM2": 6210.143384211525,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.864090041462639,105.6610932153938",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66061793236227, 10.864345661171798],
+            [105.66112651799743, 10.864008454717153],
+            [105.66113406300008, 10.86400548000006],
+            [105.66084642800007, 10.863575751000042],
+            [105.66063642200004, 10.863245499000072],
+            [105.66113312289994, 10.864004075482724],
+            [105.66114216396481, 10.863998081004974],
+            [105.66145009663173, 10.864616252855974],
+            [105.66156849842534, 10.864807535465072],
+            [105.66083423723057, 10.864934583925207],
+            [105.66061793236227, 10.864345661171798]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 33
+    },
+    {
+      "sourceRow": 36,
+      "parcelNumber": "135",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66084011014608,
+      "lat": 10.865493253614911,
+      "estimatedAreaM2": 15518.772531459968,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.865493253614911,105.66084011014608",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.66011172186683, 10.865208966285163],
+            [105.66021075670939, 10.865871856240028],
+            [105.66117284859475, 10.866178971764752],
+            [105.66156849842534, 10.864807535465072],
+            [105.66083423723057, 10.864934583925207],
+            [105.66011172186683, 10.865208966285163]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 34
+    },
+    {
+      "sourceRow": 37,
+      "parcelNumber": "136",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.66048275351667,
+      "lat": 10.864608710501207,
+      "estimatedAreaM2": 6851.124059153705,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.864608710501207,105.66048275351667",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.65983898903609, 10.864723334893691],
+            [105.66011172186683, 10.865208966285163],
+            [105.66083423723057, 10.864934583925207],
+            [105.66061793236227, 10.864345661171798],
+            [105.66112651799727, 10.86400845471725],
+            [105.66101971300009, 10.864050564000024],
+            [105.66048893600004, 10.864294074000043],
+            [105.65983898903609, 10.864723334893691]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 35
+    },
+    {
+      "sourceRow": 38,
+      "parcelNumber": "137",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.65981836445067,
+      "lat": 10.86529759556686,
+      "estimatedAreaM2": 5677.436692506848,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.86529759556686,105.65981836445067",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.65951544942547, 10.865357782676996],
+            [105.66021075670939, 10.865871856240028],
+            [105.66011172186683, 10.865208966285163],
+            [105.65983898903609, 10.864723334893691],
+            [105.65942597219194, 10.864930649480712],
+            [105.65951544942547, 10.865357782676996]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 36
+    },
+    {
+      "sourceRow": 39,
+      "parcelNumber": "138",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.65941017696372,
+      "lat": 10.864565698765393,
+      "estimatedAreaM2": 3999.3485082204984,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.864565698765393,105.65941017696372",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.65942597219194, 10.864930649480712],
+            [105.65983898903609, 10.864723334893691],
+            [105.65961334656748, 10.864200748050076],
+            [105.65898136489136, 10.864548590937003],
+            [105.65942597219194, 10.864930649480712]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 37
+    },
+    {
+      "sourceRow": 40,
+      "parcelNumber": "139",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.65951169619908,
+      "lat": 10.863350742446858,
+      "estimatedAreaM2": 31188.1725035095,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.863350742446858,105.65951169619908",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.6585344563981, 10.863326571532252],
+            [105.65898136489136, 10.864548590937003],
+            [105.65961334656748, 10.864200748050076],
+            [105.65983898903609, 10.864723334893691],
+            [105.66048893600004, 10.864294074000043],
+            [105.66026073900008, 10.863923130000046],
+            [105.66001873300007, 10.863547753000034],
+            [105.65977224900007, 10.863158721000048],
+            [105.65953948100008, 10.862787775000072],
+            [105.65930204700004, 10.862421439000059],
+            [105.65911946800009, 10.862145533000046],
+            [105.65902814100008, 10.861978150000027],
+            [105.6585344563981, 10.863326571532252]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 38
+    },
+    {
+      "sourceRow": 41,
+      "parcelNumber": "140",
+      "sheetNumber": "2",
+      "included": true,
+      "lng": 105.65848367484332,
+      "lat": 10.863263370468516,
+      "estimatedAreaM2": 13232.617704357666,
+      "reportedAreaM2": null,
+      "commune": "Chưa xác định",
+      "imageBatch": 0,
+      "note": "Phác theo ảnh và nối kín cạnh chung với các thửa liền kề. Tọa độ, diện tích, số thửa và chủ hộ là gợi ý, chưa xác minh.",
+      "landUse": "Chưa xác định",
+      "googleMaps": "https://www.google.com/maps?q=10.863263370468516,105.65848367484332",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.65793920868659, 10.86436692878607],
+            [105.65898136489136, 10.864548590937003],
+            [105.6585344563981, 10.863326571532252],
+            [105.65902814100008, 10.861978150000027],
+            [105.6579559850551, 10.863689020202255],
+            [105.65793920868659, 10.86436692878607]
+          ]
+        ]
+      },
+      "boundaryEstimated": true,
+      "imageOutlineIndex": 39
+    }
+  ]
+}

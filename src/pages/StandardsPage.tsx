@@ -1,3 +1,205 @@
-import {useState} from 'react'; import {BookOpen,ChevronRight,FileText,Globe2,Info,Search,ShieldCheck,X} from 'lucide-react'; import {Badge} from '../components/Badge'; import {useI18n} from '../lib/i18n';
-const standards=[{tab:'intl',code:'FAO/Codex CXS 198-1995',name:'Tiêu chuẩn Codex cho gạo',body:'FAO / Codex Alimentarius',scope:'Yêu cầu chất lượng, an toàn và thương mại quốc tế đối với gạo.',req:24},{tab:'intl',code:'CAC/GL 60-2006',name:'Nguyên tắc truy xuất nguồn gốc',body:'Codex Alimentarius Commission',scope:'Khung truy xuất cho thực phẩm qua chuỗi cung ứng.',req:18},{tab:'intl',code:'SRP Standard 2.1',name:'Sustainable Rice Platform Standard',body:'Sustainable Rice Platform',scope:'Canh tác lúa bền vững, môi trường, xã hội và hiệu quả kinh tế.',req:41},{tab:'good',code:'VietGAP TCVN 11892-1:2017',name:'Thực hành nông nghiệp tốt Việt Nam',body:'Bộ NN&PTNT',scope:'An toàn thực phẩm, môi trường, sức khỏe và phúc lợi người lao động.',req:34},{tab:'good',code:'GlobalG.A.P. IFA v6',name:'Integrated Farm Assurance',body:'GLOBALG.A.P.',scope:'Thực hành nông nghiệp tốt toàn cầu cho sản xuất và chuỗi cung ứng.',req:52}];const rows=[['Tọa độ polygon vùng trồng',['Bắt buộc','Bắt buộc','Khuyến nghị','Khuyến nghị'],'GeoJSON ranh giới + lịch sử cập nhật'],['Mã số vùng trồng',['Bắt buộc','Khuyến nghị','Khuyến nghị','Khuyến nghị'],'Mã vùng, trạng thái cấp mã, cơ quan cấp'],['Mã cơ sở đóng gói',['Bắt buộc','Khuyến nghị','Bắt buộc','Khuyến nghị'],'Mã cơ sở, giấy phép, hiệu lực'],['Nhật ký canh tác',['Bắt buộc','Bắt buộc','Bắt buộc','Bắt buộc'],'Ngày, người thực hiện, vật tư, GPS'],['Thời gian cách ly thuốc BVTV',['Bắt buộc','Bắt buộc','Bắt buộc','Bắt buộc'],'Hoạt chất, liều lượng, ngày thu hoạch'],['Giới hạn dư lượng MRL',['Bắt buộc','Bắt buộc','Bắt buộc','Bắt buộc'],'Kết quả kiểm nghiệm và ngưỡng MRL'],['Chứng nhận Halal',['Không yêu cầu','Không yêu cầu','Không yêu cầu','Bắt buộc'],'Chứng nhận, tổ chức cấp, ngày hết hạn'],['Truy xuất 1 bước trước – 1 bước sau',['Bắt buộc','Bắt buộc','Bắt buộc','Bắt buộc'],'Liên kết hộ – thửa – lô – cơ sở đóng gói']];const tone=(x:string)=>x==='Bắt buộc'?'green':x==='Khuyến nghị'?'amber':'neutral';
-export default function StandardsPage(){const{lang}=useI18n();const vi=lang==='vi';const[tab,setTab]=useState('intl');const[q,setQ]=useState('');const[detail,setDetail]=useState<string|null>(null);const l=vi?{title:'Thư viện tiêu chuẩn',sub:'Tra cứu yêu cầu áp dụng cho vùng trồng, canh tác và thị trường xuất khẩu.',preview:'Preview',intl:'Tiêu chuẩn quốc tế',good:'Thực hành tốt',market:'Ma trận thị trường',search:'Tìm kiếm tiêu chuẩn...',body:'Đơn vị ban hành',scope:'Phạm vi áp dụng',req:'số yêu cầu',detail:'Xem chi tiết',compare:'So sánh yêu cầu theo thị trường',system:'Dữ liệu hệ thống thu thập',all:'Tất cả'}:{title:'Standards library',sub:'Review requirements for planting zones, farming, and export markets.',preview:'Preview',intl:'International standards',good:'Good practices',market:'Market matrix',search:'Search standards...',body:'Issuing body',scope:'Scope',req:'requirements',detail:'View details',compare:'Compare requirements by market',system:'System data collected',all:'All'};const list=standards.filter(s=>s.tab===tab&&[s.code,s.name,s.body,s.scope].join(' ').toLowerCase().includes(q.toLowerCase()));return <div className="space-y-5"><div className="flex flex-col justify-between gap-4 lg:flex-row lg:items-end"><div><Badge tone="amber">{l.preview}</Badge><h1 className="mt-3 text-2xl font-bold text-rice-950">{l.title}</h1><p className="mt-1 text-sm text-slate-500">{l.sub}</p></div><div className="relative w-full lg:w-72"><Search size={15} className="absolute left-3 top-2.5 text-slate-400"/><input value={q} onChange={e=>setQ(e.target.value)} placeholder={l.search} className="w-full rounded-lg border border-slate-200 bg-white py-2.5 pl-9 text-xs"/></div></div><div className="flex gap-1 overflow-x-auto rounded-xl border border-slate-200 bg-white p-1 shadow-card"><button onClick={()=>setTab('intl')} className={`whitespace-nowrap rounded-lg px-4 py-2.5 text-xs font-bold ${tab==='intl'?'bg-rice-900 text-white':'text-slate-500'}`}><Globe2 className="mr-2 inline" size={15}/>{l.intl}</button><button onClick={()=>setTab('good')} className={`whitespace-nowrap rounded-lg px-4 py-2.5 text-xs font-bold ${tab==='good'?'bg-rice-900 text-white':'text-slate-500'}`}><ShieldCheck className="mr-2 inline" size={15}/>{l.good}</button><button onClick={()=>setTab('market')} className={`whitespace-nowrap rounded-lg px-4 py-2.5 text-xs font-bold ${tab==='market'?'bg-rice-900 text-white':'text-slate-500'}`}><BookOpen className="mr-2 inline" size={15}/>{l.market}</button></div>{tab!=='market'?<div className="grid gap-4 lg:grid-cols-2">{list.map(s=><article key={s.code} className="rounded-xl border border-slate-200 bg-white p-5 shadow-card"><div className="flex items-start justify-between"><div className="flex h-10 w-10 items-center justify-center rounded-lg bg-rice-100 text-rice-900"><FileText size={19}/></div><span className="rounded-full bg-slate-100 px-2 py-1 text-[10px] font-bold text-slate-500">2025</span></div><div className="mt-4 font-mono text-xs font-bold text-rice-700">{s.code}</div><h2 className="mt-2 text-lg font-bold">{s.name}</h2><div className="mt-2 text-xs font-semibold text-slate-500">{s.body}</div><p className="mt-3 text-sm leading-6 text-slate-500">{s.scope}</p><div className="mt-5 flex items-center justify-between border-t border-slate-100 pt-4"><span className="text-xs text-slate-500"><b>{s.req}</b> {l.req}</span><button onClick={()=>setDetail(s.code)} className="flex items-center gap-1 text-xs font-bold text-rice-700">{l.detail}<ChevronRight size={15}/></button></div></article>)}</div>:<div className="rounded-xl border border-slate-200 bg-white shadow-card"><div className="border-b border-slate-100 p-5"><h2 className="font-bold">{l.compare}</h2><p className="mt-1 text-xs text-slate-400">{vi?'Áp dụng cho dữ liệu vùng trồng và truy xuất lúa':'Applies to planting-zone and rice traceability data'}</p></div><div className="overflow-x-auto"><table className="w-full min-w-[1050px] text-left text-xs"><thead className="bg-slate-50 text-[10px] uppercase text-slate-400"><tr><th className="w-64 px-4 py-3">{vi?'Yêu cầu':'Requirement'}</th><th className="px-4 py-3">Trung Quốc (GACC)</th><th className="px-4 py-3">EU (EUDR)</th><th className="px-4 py-3">Mỹ (FSMA/FDA)</th><th className="px-4 py-3">Halal</th><th className="px-4 py-3">{l.system}</th></tr></thead><tbody className="divide-y divide-slate-100">{rows.map(([req,values,system])=><tr key={req} className="hover:bg-slate-50"><td className="px-4 py-3 font-semibold">{req}</td>{(values as string[]).map((v,i)=><td key={i} className="px-4 py-3"><Badge tone={tone(v) as any}>{v}</Badge></td>)}<td className="px-4 py-3 text-slate-500">{system}</td></tr>)}</tbody></table></div><div className="flex items-start gap-2 border-t border-slate-100 bg-blue-50 px-5 py-3 text-xs text-blue-800"><Info size={15}/> {vi?'Ma trận là khung tham chiếu vận hành; cần đối chiếu theo lô hàng và quốc gia nhập khẩu cụ thể.':'This matrix is an operating reference; verify requirements for each shipment and destination.'}</div></div>}{detail&&<div className="fixed inset-0 z-40 flex items-center justify-center bg-slate-900/20 p-5" onClick={()=>setDetail(null)}><div className="w-full max-w-md rounded-xl bg-white p-6 shadow-2xl" onClick={e=>e.stopPropagation()}><div className="flex justify-between"><div><Badge tone="green">{vi?'Đang áp dụng':'In scope'}</Badge><h2 className="mt-3 font-bold">{detail}</h2></div><button onClick={()=>setDetail(null)}><X size={18}/></button></div><p className="mt-4 text-sm text-slate-500">{vi?'Chi tiết yêu cầu sẽ được mở trong phiên bản tiếp theo.':'Requirement detail will be available in a future version.'}</p></div></div>}</div>}
+import { useState } from 'react';
+import { Link, useSearchParams } from 'react-router-dom';
+import { Search, FileText, ChevronRight } from 'lucide-react';
+import {
+  standards,
+  publishStandard,
+  standardGroup,
+  matchesStandard,
+} from '../features/standards/data/standards';
+import { markets, sourcedCell, sourcedRows } from '../features/standards/data/marketMatrix';
+import { useI18n } from '../lib/i18n';
+import { number, year } from '../lib/format';
+import TableScroll from '../components/TableScroll';
+import Tabs from '../components/Tabs';
+export default function StandardsPage() {
+  const { lang, t } = useI18n(),
+    vi = lang === 'vi',
+    [params, setParams] = useSearchParams();
+  const tab = ['intl', 'good', 'market'].includes(params.get('tab') ?? '')
+    ? params.get('tab')!
+    : 'intl';
+  const [query, setQuery] = useState('');
+  const titles = {
+    intl: vi ? 'Tiêu chuẩn quốc tế' : 'International standards',
+    good: vi ? 'Thực hành tốt' : 'Good practices',
+    market: vi ? 'Ma trận thị trường' : 'Market matrix',
+  };
+  const list = standards.flatMap((raw) => {
+    const s = publishStandard(raw);
+    return s && standardGroup(s.id) === tab && matchesStandard(s, query) ? [s] : [];
+  });
+  return (
+    <div className="space-y-5">
+      <div className="flex flex-col justify-between gap-4 lg:flex-row lg:items-end">
+        <div>
+          <h1 className="text-2xl font-bold text-rice-950">{t.standards}</h1>
+          <p className="mt-2 text-sm text-slate-600">
+            {vi
+              ? 'Tra cứu tiêu chuẩn và căn cứ pháp lý có nguồn tham khảo.'
+              : 'Browse standards and legal bases with source references.'}
+          </p>
+        </div>
+        {tab !== 'market' && (
+          <label className="relative block w-full lg:w-80">
+            <span className="sr-only">
+              {vi ? 'Tìm theo mã, tên hoặc cơ quan' : 'Search by code, name or issuer'}
+            </span>
+            <Search className="absolute left-3 top-3 text-slate-600" size={16} />
+            <input
+              value={query}
+              onChange={(event) => setQuery(event.target.value)}
+              placeholder={vi ? 'Tìm kiếm tiêu chuẩn…' : 'Search standards…'}
+              className="w-full rounded-lg border border-slate-300 bg-white py-3 pl-10 pr-3 text-sm"
+            />
+          </label>
+        )}
+      </div>
+      <Tabs
+        id="standards"
+        label={t.standards}
+        items={Object.entries(titles).map(([id, label]) => ({ id, label }))}
+        active={tab}
+        onChange={(id) => {
+          const next = new URLSearchParams(params);
+          next.set('tab', id);
+          setParams(next, { replace: true });
+        }}
+      >
+        {tab !== 'market' ? (
+          <>
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+              {list.map((s) => (
+                <article
+                  key={s.id}
+                  className="min-w-0 break-words rounded-xl border border-slate-200 bg-white p-5 shadow-card"
+                >
+                  <div className="flex flex-wrap items-start justify-between gap-3">
+                    <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-rice-100 text-rice-900">
+                      <FileText size={19} />
+                    </span>
+                    {(s.editionLabel !== undefined || s.year !== undefined) && (
+                      <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700">
+                        {s.editionLabel ?? year(s.year!, lang)}
+                      </span>
+                    )}
+                  </div>
+                  <p className="mt-4 font-mono text-sm font-semibold text-rice-900">{s.code}</p>
+                  <h2 className="mt-2 text-lg font-bold">{vi ? s.nameVi : s.nameEn}</h2>
+                  {s.issuer.length > 0 && (
+                    <ul className="mt-3 space-y-1 text-sm text-slate-600">
+                      {s.issuer.map((i) => (
+                        <li key={i.role + i.name}>{vi ? i.name : (i.nameEn ?? i.name)}</li>
+                      ))}
+                    </ul>
+                  )}
+                  {(vi ? s.scopeVi : s.scopeEn) && (
+                    <p className="mt-3 text-sm leading-6 text-slate-600">
+                      {vi ? s.scopeVi : s.scopeEn}
+                    </p>
+                  )}
+                  {s.id === 'srp' && s.structure && s.requirementCount && (
+                    <p className="mt-4 text-sm text-slate-600">
+                      {number(s.structure.length, lang, 0)} {vi ? 'chủ đề' : 'themes'} ·{' '}
+                      {number(s.requirementCount.value, lang, 0)} {vi ? 'yêu cầu' : 'requirements'}
+                    </p>
+                  )}
+                  <div className="mt-5 border-t border-slate-200 pt-4">
+                    <Link
+                      to={`/standards/${s.id}`}
+                      aria-label={`${vi ? 'Xem chi tiết' : 'View details'}: ${s.code}`}
+                      className="inline-flex min-h-11 items-center gap-1 text-sm font-bold text-rice-900"
+                    >
+                      {vi ? 'Xem chi tiết' : 'View details'}
+                      <ChevronRight size={15} />
+                    </Link>
+                  </div>
+                </article>
+              ))}
+            </div>
+            {list.length === 0 && (
+              <p role="status" className="rounded-xl bg-white p-5 text-sm text-slate-600">
+                {vi ? 'Không có tiêu chuẩn phù hợp.' : 'No matching standards.'}
+              </p>
+            )}
+          </>
+        ) : (
+          <section className="min-w-0 rounded-xl border border-slate-200 bg-white shadow-card">
+            <h2 className="p-5 text-lg font-bold">
+              {vi ? 'So sánh yêu cầu theo thị trường' : 'Requirements by market'}
+            </h2>
+            <TableScroll>
+              <table className="w-full min-w-[850px] text-left">
+                <caption className="sr-only">{titles.market}</caption>
+                <thead className="bg-slate-50">
+                  <tr>
+                    <th scope="col" className="px-4 py-3">
+                      {vi ? 'Yêu cầu' : 'Requirement'}
+                    </th>
+                    {markets.map((m) => (
+                      <th key={m} scope="col" className="px-4 py-3">
+                        {
+                          {
+                            CN: vi ? 'Trung Quốc' : 'China',
+                            EU: 'EU',
+                            US: vi ? 'Mỹ' : 'US',
+                            HALAL: 'Halal',
+                          }[m]
+                        }
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-slate-200">
+                  {sourcedRows().map((row) => (
+                    <tr key={row.id}>
+                      <th scope="row" className="px-4 py-4">
+                        {vi ? row.labelVi : row.labelEn}
+                      </th>
+                      {markets.map((m) => {
+                        const cell = sourcedCell(row.cells[m]);
+                        return (
+                          <td key={m} data-market={m} className="px-4 py-4 align-top">
+                            {cell && (
+                              <div className="space-y-2">
+                                <span className="inline-flex whitespace-nowrap rounded-full bg-rice-100 px-2 py-1 font-semibold text-rice-900">
+                                  {vi
+                                    ? cell.level
+                                    : {
+                                        'Bắt buộc': 'Mandatory',
+                                        'Khuyến nghị': 'Recommended',
+                                        'Không yêu cầu': 'Not required',
+                                      }[cell.level]}
+                                </span>
+                                <a
+                                  href={cell.sourceUrl}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="relative block text-sm leading-6 text-rice-900 underline underline-offset-2"
+                                >
+                                  {cell.legalBasis}
+                                  <span className="sr-only">
+                                    {vi ? ' (mở tab mới)' : ' (opens in a new tab)'}
+                                  </span>
+                                </a>
+                              </div>
+                            )}
+                          </td>
+                        );
+                      })}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </TableScroll>
+            <p className="border-t border-slate-200 p-5 text-sm leading-6 text-slate-700">
+              {vi
+                ? 'Chỉ hiển thị yêu cầu có căn cứ pháp lý đã xác minh. Cần xác nhận lại theo mã HS, nước nhập khẩu và nhà nhập khẩu.'
+                : 'Only requirements with verified legal bases are shown. Reconfirm for the HS code, importing country and importer.'}
+            </p>
+          </section>
+        )}
+      </Tabs>
+    </div>
+  );
+}

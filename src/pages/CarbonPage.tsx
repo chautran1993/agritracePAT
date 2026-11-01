@@ -1,3 +1,243 @@
-import {ArrowRight,BookOpen,Calculator,CheckCircle2,Cloud,FileCheck2,Info,Leaf,Radio,Satellite,ShieldCheck} from 'lucide-react'; import {Bar,BarChart,CartesianGrid,Cell,ResponsiveContainer,Tooltip,XAxis,YAxis} from 'recharts'; import {Badge} from '../components/Badge'; import {useI18n} from '../lib/i18n';
-const flow=[['Nhật ký canh tác','Farm logs',BookOpen,'AWD · rơm rạ'],['Cảm biến IoT','IoT sensors',Radio,'Mực nước · độ ẩm'],['Ảnh vệ tinh Sentinel-1','Sentinel-1 imagery',Satellite,'Ngập nước · sinh khối'],['Carbon Engine','Carbon Engine',Cloud,'Verra VM0042 · IPCC'],['Báo cáo MRV','MRV report',FileCheck2,'Đo lường · báo cáo'],['Tổ chức thẩm định','Validation body',ShieldCheck,'Thẩm định độc lập']];const data=[{name:'Truyền thống',value:4.8},{name:'AWD + vi sinh',value:2.9}];
-export default function CarbonPage(){const{lang}=useI18n();const vi=lang==='vi';const l=vi?{title:'Carbon MRV',sub:'Khung minh họa cho đo lường, báo cáo và thẩm định giảm phát thải trong canh tác lúa.',badge:'Minh họa – Roadmap 2027',illustrative:'Số liệu minh họa',flow:'Luồng dữ liệu MRV',flowSub:'Từ dữ liệu hiện trường đến báo cáo tín chỉ carbon',area:'Diện tích áp dụng AWD',days:'Số ngày ngập trung bình',straw:'% thửa không đốt rơm',reduction:'Ước tính giảm phát thải',chart:'Ước tính phát thải CH₄',traditional:'Canh tác truyền thống',awd:'AWD + xử lý rơm rạ vi sinh',unit:'tCO₂e/ha/vụ',formula:'Công thức tính minh họa',formulaSub:'Các hệ số cần hiệu chuẩn theo phương pháp, dữ liệu địa phương và thẩm định.',factor:'Yếu tố',meaning:'Giải thích',roadmap:'Lộ trình đề xuất',roadmapText:'Kết nối dữ liệu vùng trồng, cảm biến và ảnh vệ tinh để tạo bằng chứng có thể truy xuất cho từng thửa.'}:{title:'Carbon MRV',sub:'A concept framework for measuring, reporting, and validating emission reductions in rice farming.',badge:'Illustrative – Roadmap 2027',illustrative:'Illustrative figures',flow:'MRV data flow',flowSub:'From field data to carbon-credit reporting',area:'Area under AWD',days:'Average flooded days',straw:'Plots with no straw burning',reduction:'Estimated emission reduction',chart:'Estimated CH₄ emissions',traditional:'Conventional farming',awd:'AWD + microbial straw treatment',unit:'tCO₂e/ha/season',formula:'Illustrative calculation formula',formulaSub:'Factors require calibration against methodology, local data, and validation.',factor:'Factor',meaning:'Explanation',roadmap:'Proposed roadmap',roadmapText:'Connect zone records, sensors, and satellite imagery to create traceable evidence for every plot.'};return <div className="space-y-5"><div className="flex flex-col justify-between gap-4 lg:flex-row lg:items-end"><div><Badge tone="blue">{l.badge}</Badge><h1 className="mt-3 text-2xl font-bold text-rice-950">{l.title}</h1><p className="mt-1 max-w-3xl text-sm text-slate-500">{l.sub}</p></div><div className="flex items-center gap-2 rounded-lg border border-blue-100 bg-blue-50 px-3 py-2 text-[10px] font-semibold text-info"><Info size={14}/>{l.illustrative}</div></div><section className="rounded-xl border border-slate-200 bg-white p-5 shadow-card"><h2 className="font-bold">{l.flow}</h2><p className="mt-1 text-xs text-slate-400">{l.flowSub}</p><div className="mt-6 grid gap-4 lg:grid-cols-6">{flow.map(([viName,enName,Icon,detail],i)=>{const I=Icon as any;return <div key={viName as string} className="relative text-center"><div className={`mx-auto flex h-12 w-12 items-center justify-center rounded-xl ${i===3?'bg-rice-900 text-white':'bg-rice-100 text-rice-900'}`}><I size={21}/></div><div className="mt-3 text-xs font-bold">{vi?viName:enName}</div><div className="mt-1 text-[10px] text-slate-400">{detail as string}</div>{i<5&&<ArrowRight className="absolute -right-3 top-4 hidden text-slate-300 lg:block" size={17}/>}</div>})}</div></section><div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">{[[Leaf,'86,4 ha',l.area,'bg-rice-100 text-rice-900'],[Cloud,'18,6 ngày',l.days,'bg-blue-50 text-info'],[Leaf,'92%',l.straw,'bg-amber-50 text-gold'],[CheckCircle2,'163,8 tCO₂e',l.reduction,'bg-emerald-50 text-emerald-700']].map(([I,value,label,color]:any)=><div key={label} className="rounded-xl border border-slate-200 bg-white p-5 shadow-card"><div className={`flex h-9 w-9 items-center justify-center rounded-lg ${color}`}><I size={18}/></div><div className="mt-5 text-2xl font-bold">{value}</div><div className="mt-1 text-xs text-slate-500">{label}</div><div className="mt-2 text-[9px] font-bold uppercase text-slate-400">{l.illustrative}</div></div>)}</div><div className="grid gap-5 xl:grid-cols-[1.1fr_1fr]"><section className="rounded-xl border border-slate-200 bg-white p-5 shadow-card"><h2 className="font-bold">{l.chart}</h2><p className="mt-1 text-xs text-slate-400">{vi?'So sánh theo cùng diện tích và mùa vụ minh họa':'Illustrative comparison at the same area and season'}</p><div className="mt-5 h-64"><ResponsiveContainer width="100%" height="100%"><BarChart data={data} layout="vertical" margin={{left:8,right:20}}><CartesianGrid horizontal={false} stroke="#edf1ed"/><XAxis type="number" tickLine={false} axisLine={false} tick={{fontSize:10}}/><YAxis type="category" dataKey="name" width={110} tickLine={false} axisLine={false} tick={{fontSize:10}}/><Tooltip formatter={(v)=>[`${v} ${l.unit}`,l.chart]}/><Bar dataKey="value" radius={[0,5,5,0]}>{data.map((x,i)=><Cell key={x.name} fill={i===0?'#94A3B8':'#4CAF50'}/>)}</Bar></BarChart></ResponsiveContainer></div><div className="flex justify-between text-[10px] text-slate-400"><span>{l.traditional}: 4,8</span><span>{l.awd}: 2,9</span></div></section><section className="rounded-xl border border-slate-200 bg-white p-5 shadow-card"><div className="flex items-center gap-2"><Calculator size={18} className="text-rice-700"/><div><h2 className="font-bold">{l.formula}</h2><p className="mt-1 text-xs text-slate-400">{l.formulaSub}</p></div></div><div className="my-5 rounded-xl bg-rice-950 px-4 py-5 text-center font-mono text-lg font-bold text-white">E<sub>CH4</sub> = EF<sub>c</sub> × t × SF<sub>w</sub> × SF<sub>p</sub> × SF<sub>o</sub></div><div className="grid grid-cols-[70px_1fr] overflow-hidden rounded-lg border border-slate-100 text-xs"><div className="bg-slate-50 p-3 font-bold text-slate-400">{l.factor}</div><div className="bg-slate-50 p-3 font-bold text-slate-400">{l.meaning}</div>{[['EFc','Hệ số phát thải cơ bản','Baseline emission factor'],['t','Thời gian ngập / điều kiện canh tác','Flooded period / farming condition'],['SFw','Hệ số điều chỉnh chế độ nước AWD','AWD water-regime factor'],['SFp','Hệ số điều chỉnh phân hữu cơ / rơm rạ','Organic fertilizer / straw factor'],['SFo','Hệ số điều chỉnh khác','Other adjustment factor']].map(([a,b,c])=><><div key={`${a}a`} className="border-t p-3 font-mono font-bold text-rice-700">{a}</div><div key={`${a}b`} className="border-t p-3 text-slate-600">{vi?b:c}</div></>)}</div></section></div><div className="flex items-start gap-3 rounded-xl border border-rice-100 bg-rice-50 p-4"><div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-white text-rice-900"><ShieldCheck size={18}/></div><div><div className="text-sm font-bold text-rice-900">{l.roadmap}</div><p className="mt-1 text-xs leading-5 text-rice-800">{l.roadmapText}</p></div></div></div>}
+import { plotProfiles } from '../features/plots/mock/plotProfiles';
+import { number } from '../lib/format';
+import {
+  ArrowRight,
+  BookOpen,
+  Calculator,
+  CheckCircle2,
+  Cloud,
+  FileCheck2,
+  Info,
+  Leaf,
+  Radio,
+  Satellite,
+  ShieldCheck,
+  type LucideIcon,
+} from 'lucide-react';
+import {
+  Bar,
+  BarChart,
+  CartesianGrid,
+  Cell,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from 'recharts';
+import { Badge } from '../components/Badge';
+import { useI18n } from '../lib/i18n';
+const flow: [string, string, LucideIcon, string][] = [
+  ['Nhật ký canh tác', 'Farm logs', BookOpen, 'AWD · rơm rạ'],
+  ['Cảm biến IoT', 'IoT sensors', Radio, 'Mực nước · độ ẩm'],
+  ['Ảnh vệ tinh Sentinel-1', 'Sentinel-1 imagery', Satellite, 'Ngập nước · sinh khối'],
+  ['Carbon Engine', 'Carbon Engine', Cloud, 'Verra VM0042 · IPCC'],
+  ['Báo cáo MRV', 'MRV report', FileCheck2, 'Đo lường · báo cáo'],
+  ['Tổ chức thẩm định', 'Validation body', ShieldCheck, 'Thẩm định độc lập'],
+];
+const data = [
+  { name: 'Truyền thống', value: 4.8 },
+  { name: 'AWD + vi sinh', value: 2.9 },
+];
+export default function CarbonPage() {
+  const { lang } = useI18n();
+  return (
+    <div className="space-y-3">
+      <h1 className="text-2xl font-bold">Carbon MRV</h1>
+      <p>
+        {lang === 'vi'
+          ? `Diện tích canh tác: ${number(
+              plotProfiles.reduce((sum, p) => sum + p.areaGisHa, 0),
+              lang,
+              4,
+            )} ha · ${plotProfiles.reduce((sum, p) => sum + p.currentSeason.logs.length, 0)} bản ghi nhật ký · Kế hoạch quản lý nước AWD`
+          : 'No farm logs or measurements are available for emissions calculations.'}
+      </p>
+    </div>
+  );
+}
+export function DemoCarbonPage() {
+  const { lang } = useI18n();
+  const vi = lang === 'vi';
+  const l = vi
+    ? {
+        title: 'Carbon MRV',
+        sub: 'Khung minh họa cho đo lường, báo cáo và thẩm định giảm phát thải trong canh tác lúa.',
+        badge: 'Minh họa – Roadmap 2027',
+        illustrative: 'Số liệu minh họa',
+        flow: 'Luồng dữ liệu MRV',
+        flowSub: 'Từ dữ liệu hiện trường đến báo cáo tín chỉ carbon',
+        area: 'Diện tích áp dụng AWD',
+        days: 'Số ngày ngập trung bình',
+        straw: '% thửa không đốt rơm',
+        reduction: 'Ước tính giảm phát thải',
+        chart: 'Ước tính phát thải CH₄',
+        traditional: 'Canh tác truyền thống',
+        awd: 'AWD + xử lý rơm rạ vi sinh',
+        unit: 'tCO₂e/ha/vụ',
+        formula: 'Công thức tính minh họa',
+        formulaSub: 'Các hệ số cần hiệu chuẩn theo phương pháp, dữ liệu địa phương và thẩm định.',
+        factor: 'Yếu tố',
+        meaning: 'Giải thích',
+        roadmap: 'Lộ trình đề xuất',
+        roadmapText:
+          'Kết nối dữ liệu vùng trồng, cảm biến và ảnh vệ tinh để tạo bằng chứng có thể truy xuất cho từng thửa.',
+      }
+    : {
+        title: 'Carbon MRV',
+        sub: 'A concept framework for measuring, reporting, and validating emission reductions in rice farming.',
+        badge: 'Illustrative – Roadmap 2027',
+        illustrative: 'Illustrative figures',
+        flow: 'MRV data flow',
+        flowSub: 'From field data to carbon-credit reporting',
+        area: 'Area under AWD',
+        days: 'Average flooded days',
+        straw: 'Plots with no straw burning',
+        reduction: 'Estimated emission reduction',
+        chart: 'Estimated CH₄ emissions',
+        traditional: 'Conventional farming',
+        awd: 'AWD + microbial straw treatment',
+        unit: 'tCO₂e/ha/season',
+        formula: 'Illustrative calculation formula',
+        formulaSub: 'Factors require calibration against methodology, local data, and validation.',
+        factor: 'Factor',
+        meaning: 'Explanation',
+        roadmap: 'Proposed roadmap',
+        roadmapText:
+          'Connect zone records, sensors, and satellite imagery to create traceable evidence for every plot.',
+      };
+  return (
+    <div className="space-y-5">
+      <div className="flex flex-col justify-between gap-4 lg:flex-row lg:items-end">
+        <div>
+          <Badge tone="blue">{l.badge}</Badge>
+          <h1 className="mt-3 text-2xl font-bold text-rice-950">{l.title}</h1>
+          <p className="mt-1 max-w-3xl text-sm text-slate-600">{l.sub}</p>
+        </div>
+        <div className="flex items-center gap-2 rounded-lg border border-blue-100 bg-blue-50 px-3 py-2 text-xs font-semibold text-blue-800">
+          <Info size={14} />
+          {l.illustrative}
+        </div>
+      </div>
+      <section className="rounded-xl border border-slate-200 bg-white p-5 shadow-card">
+        <h2 className="font-bold">{l.flow}</h2>
+        <p className="mt-1 text-xs text-slate-600">{l.flowSub}</p>
+        <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-6">
+          {flow.map(([viName, enName, Icon, detail], i) => {
+            const I = Icon as any;
+            return (
+              <div key={viName as string} className="relative text-center">
+                <div
+                  className={`mx-auto flex h-12 w-12 items-center justify-center rounded-xl ${i === 3 ? 'bg-rice-900 text-white' : 'bg-rice-100 text-rice-900'}`}
+                >
+                  <I size={21} />
+                </div>
+                <div className="mt-3 text-xs font-bold">{vi ? viName : enName}</div>
+                <div className="mt-1 text-xs text-slate-600">{detail as string}</div>
+                {i < 5 && (
+                  <ArrowRight
+                    className="absolute -right-3 top-4 hidden text-slate-600 lg:block"
+                    size={17}
+                  />
+                )}
+              </div>
+            );
+          })}
+        </div>
+      </section>
+      <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+        {[
+          [Leaf, '86,4 ha', l.area, 'bg-rice-100 text-rice-900'],
+          [Cloud, '18,6 ngày', l.days, 'bg-blue-50 text-blue-800'],
+          [Leaf, '92%', l.straw, 'bg-amber-50 text-amber-800'],
+          [CheckCircle2, '163,8 tCO₂e', l.reduction, 'bg-emerald-50 text-emerald-700'],
+        ].map(([I, value, label, color]: any) => (
+          <div key={label} className="rounded-xl border border-slate-200 bg-white p-5 shadow-card">
+            <div className={`flex h-9 w-9 items-center justify-center rounded-lg ${color}`}>
+              <I size={18} />
+            </div>
+            <div className="mt-5 text-2xl font-bold">{value}</div>
+            <div className="mt-1 text-xs text-slate-600">{label}</div>
+            <div className="mt-2 text-xs font-bold uppercase text-slate-600">{l.illustrative}</div>
+          </div>
+        ))}
+      </div>
+      <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)]">
+        <section className="rounded-xl border border-slate-200 bg-white p-5 shadow-card">
+          <h2 className="font-bold">{l.chart}</h2>
+          <p className="mt-1 text-xs text-slate-600">
+            {vi
+              ? 'So sánh theo cùng diện tích và mùa vụ minh họa'
+              : 'Illustrative comparison at the same area and season'}
+          </p>
+          <div className="mt-5 h-64">
+            <ResponsiveContainer width="100%" height="100%">
+              <BarChart data={data} layout="vertical" margin={{ left: 8, right: 20 }}>
+                <CartesianGrid horizontal={false} stroke="#edf1ed" />
+                <XAxis type="number" tickLine={false} axisLine={false} tick={{ fontSize: 12 }} />
+                <YAxis
+                  type="category"
+                  dataKey="name"
+                  width={110}
+                  tickLine={false}
+                  axisLine={false}
+                  tick={{ fontSize: 12 }}
+                />
+                <Tooltip formatter={(v) => [`${v} ${l.unit}`, l.chart]} />
+                <Bar dataKey="value" radius={[0, 5, 5, 0]}>
+                  {data.map((x, i) => (
+                    <Cell key={x.name} fill={i === 0 ? '#94A3B8' : '#4CAF50'} />
+                  ))}
+                </Bar>
+              </BarChart>
+            </ResponsiveContainer>
+          </div>
+          <div className="flex justify-between text-xs text-slate-600">
+            <span>{l.traditional}: 4,8</span>
+            <span>{l.awd}: 2,9</span>
+          </div>
+        </section>
+        <section className="rounded-xl border border-slate-200 bg-white p-5 shadow-card">
+          <div className="flex items-center gap-2">
+            <Calculator size={18} className="text-rice-700" />
+            <div>
+              <h2 className="font-bold">{l.formula}</h2>
+              <p className="mt-1 text-xs text-slate-600">{l.formulaSub}</p>
+            </div>
+          </div>
+          <div className="my-5 rounded-xl bg-rice-950 px-4 py-5 text-center font-mono text-lg font-bold text-white">
+            E<sub>CH4</sub> = EF<sub>c</sub> × t × SF<sub>w</sub> × SF<sub>p</sub> × SF<sub>o</sub>
+          </div>
+          <div className="grid grid-cols-[70px_minmax(0,1fr)] overflow-hidden rounded-lg border border-slate-100 text-xs">
+            <div className="bg-slate-50 p-3 font-bold text-slate-600">{l.factor}</div>
+            <div className="bg-slate-50 p-3 font-bold text-slate-600">{l.meaning}</div>
+            {[
+              ['EFc', 'Hệ số phát thải cơ bản', 'Baseline emission factor'],
+              ['t', 'Thời gian ngập / điều kiện canh tác', 'Flooded period / farming condition'],
+              ['SFw', 'Hệ số điều chỉnh chế độ nước AWD', 'AWD water-regime factor'],
+              ['SFp', 'Hệ số điều chỉnh phân hữu cơ / rơm rạ', 'Organic fertilizer / straw factor'],
+              ['SFo', 'Hệ số điều chỉnh khác', 'Other adjustment factor'],
+            ].map(([a, b, c]) => (
+              <>
+                <div key={`${a}a`} className="border-t p-3 font-mono font-bold text-rice-700">
+                  {a}
+                </div>
+                <div key={`${a}b`} className="border-t p-3 text-slate-600">
+                  {vi ? b : c}
+                </div>
+              </>
+            ))}
+          </div>
+        </section>
+      </div>
+      <div className="flex items-start gap-3 rounded-xl border border-rice-100 bg-rice-50 p-4">
+        <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-white text-rice-900">
+          <ShieldCheck size={18} />
+        </div>
+        <div>
+          <div className="text-sm font-bold text-rice-900">{l.roadmap}</div>
+          <p className="mt-1 text-xs leading-5 text-rice-800">{l.roadmapText}</p>
+        </div>
+      </div>
+    </div>
+  );
+}

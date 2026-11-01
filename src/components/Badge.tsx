@@ -1,1 +1,23 @@
-import type {ReactNode} from 'react'; export function Badge({children,tone='neutral'}:{children:ReactNode;tone?:'green'|'amber'|'red'|'neutral'|'blue'}){const c={green:'bg-rice-100 text-rice-900',amber:'bg-amber-50 text-amber-700',red:'bg-red-50 text-danger',neutral:'bg-slate-100 text-slate-600',blue:'bg-blue-50 text-info'}[tone];return <span className={`inline-flex items-center rounded-full px-2.5 py-1 text-xs font-semibold ${c}`}>{children}</span>}
+import type { ReactNode } from 'react';
+export function Badge({
+  children,
+  tone = 'neutral',
+}: {
+  children: ReactNode;
+  tone?: 'green' | 'amber' | 'red' | 'neutral' | 'blue';
+}) {
+  const c = {
+    green: 'bg-rice-100 text-rice-900',
+    amber: 'bg-amber-50 text-amber-800',
+    red: 'bg-red-50 text-red-700',
+    neutral: 'bg-slate-100 text-slate-600',
+    blue: 'bg-blue-50 text-blue-800',
+  }[tone];
+  return (
+    <span
+      className={`inline-flex items-center rounded-full px-2.5 py-1 text-xs font-semibold ${c}`}
+    >
+      {children}
+    </span>
+  );
+}
